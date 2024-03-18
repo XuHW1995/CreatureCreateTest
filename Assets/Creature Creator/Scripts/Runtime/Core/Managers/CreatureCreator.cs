@@ -149,7 +149,10 @@ namespace DanielLochner.Assets.CreatureCreator
                             bpc.gameObject.name = bodyPartID;
 
                             bpc.Drag.Plane = plane;
-                            creature.SetupBodyPart(bpc);
+                            if (!(bpc is UltramanBodyPartController))
+                            {
+                                creature.SetupBodyPart(bpc);
+                            }
                             bpc.Drag.OnMouseDown();
                         }
                     }

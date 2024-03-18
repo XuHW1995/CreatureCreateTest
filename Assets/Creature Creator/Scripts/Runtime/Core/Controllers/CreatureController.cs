@@ -85,6 +85,9 @@ namespace DanielLochner.Assets.CreatureCreator
 
             meshCollider = gameObject.AddComponent<MeshCollider>();
             mesh.name = "Body";
+            
+            //关闭原本的body
+            model.SetActive(false);
             #endregion
 
             #region Tools

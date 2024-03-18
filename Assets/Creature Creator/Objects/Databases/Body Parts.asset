@@ -46,6 +46,9 @@ MonoBehaviour:
     - accessory-03
     - arm-01
     - leg-01
+    - XHW
+    - bangzi
+    - FiveKingRHand
     _keys:
     - mouth-01
     - mouth-02
@@ -57,6 +60,9 @@ MonoBehaviour:
     - accessory-03
     - arm-01
     - leg-01
+    - XHW
+    - bangzi
+    - FiveKingRHand
     _values:
     - {fileID: 11400000, guid: 3e2d98c7570642443aa3c05f2b8bf60f, type: 2}
     - {fileID: 11400000, guid: 4830af903cae61745b6e08de26df1867, type: 2}
@@ -68,3 +74,6 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2300302e260d69a4e94c8f39b84b109c, type: 2}
     - {fileID: 11400000, guid: c49c660d4cd681b489b967ef22f6bc73, type: 2}
     - {fileID: 11400000, guid: 1dd2468a16d03f44483b5a46ff190f50, type: 2}
+    - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
+    - {fileID: 11400000, guid: 9cde13b02c331714fa270709f83c86f1, type: 2}
+    - {fileID: 11400000, guid: 0d3c167b072f4ae44a769b255544917d, type: 2}
