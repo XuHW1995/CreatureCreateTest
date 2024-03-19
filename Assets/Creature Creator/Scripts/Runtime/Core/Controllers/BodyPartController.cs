@@ -60,7 +60,10 @@ namespace DanielLochner.Assets.CreatureCreator
                 if (transform.localScale.x < bodyPart.MaxScale - bodyPart.ScaleIncrement)
                 {
                     transform.localScale += Vector3.one * bodyPart.ScaleIncrement;
-                    Flipped.transform.localScale = transform.localScale;
+                    if (Flipped != null)
+                    {
+                        Flipped.transform.localScale = transform.localScale;
+                    }
                 }
             });
             scroll.OnScrollDown.AddListener(delegate
@@ -68,7 +71,10 @@ namespace DanielLochner.Assets.CreatureCreator
                 if (transform.localScale.x > bodyPart.MinScale + bodyPart.ScaleIncrement)
                 {
                     transform.localScale -= Vector3.one * bodyPart.ScaleIncrement;
-                    Flipped.transform.localScale = transform.localScale;
+                    if (Flipped != null)
+                    {
+                        Flipped.transform.localScale = transform.localScale;
+                    }
                 }
             });
         }

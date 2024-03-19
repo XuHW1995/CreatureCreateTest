@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b223a925ae1bc484aaf867fb9bd9286d, type: 3}
+  m_Name: RedKing_leg_R
+  m_EditorClassIdentifier: 
+  description: RedKing_leg_R02
+  icon: {fileID: 21300000, guid: 828a57869e1529648b27c6f7aacbf519, type: 3}
+  prefab: {fileID: 1067900966280993839, guid: 1313300d8deb59b4a817e22d2c9d51d4, type: 3}
+  price: 0
+  complexity: 0
+  health: 0
+  attributes: []
+  transformations: -1
+  minScale: 0.25
+  maxScale: 2.5
+  scaleIncrement: 0.1

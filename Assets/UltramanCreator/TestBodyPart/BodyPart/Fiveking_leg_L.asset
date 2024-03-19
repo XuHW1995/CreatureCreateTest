@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b223a925ae1bc484aaf867fb9bd9286d, type: 3}
-  m_Name: FivekingRHand
+  m_Name: Fiveking_leg_L
   m_EditorClassIdentifier: 
-  description: FivekingRHand
-  icon: {fileID: 21300000, guid: 071024782e94ed1429bd4bdd3d70e497, type: 3}
-  prefab: {fileID: 1067900966280993839, guid: e3e64705a4f11ba4e96c2cddc3ce7380, type: 3}
+  description: Fiveking_leg_L
+  icon: {fileID: 21300000, guid: 2fa185bf487e6ab4896d420729717938, type: 3}
+  prefab: {fileID: 1067900966280993839, guid: 363d00730ac2e1344b7112fa7776c201, type: 3}
   price: 0
   complexity: 0
   health: 0

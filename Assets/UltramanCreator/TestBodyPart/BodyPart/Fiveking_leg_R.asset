@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b223a925ae1bc484aaf867fb9bd9286d, type: 3}
-  m_Name: XHW
+  m_Name: Fiveking_leg_R
   m_EditorClassIdentifier: 
-  description: 
-  icon: {fileID: 21300000, guid: 4fac2f3ea2550714393ab21663ca64db, type: 3}
-  prefab: {fileID: 6899274513017896913, guid: ec2a8aa7e66fe4a44bbd848fa05c023c, type: 3}
+  description: Fiveking_leg_R
+  icon: {fileID: 21300000, guid: 655873eb18b8cdc449bf0dc571ad7f19, type: 3}
+  prefab: {fileID: 1067900966280993839, guid: 3f504e7196088914ba6799e795ee5c06, type: 3}
   price: 0
   complexity: 0
   health: 0

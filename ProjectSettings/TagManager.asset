@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Set
   - UTM
+  - UTM_DMBL
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Body
   - Post-Processing
   - BodyPart
-  - 
+  - BoneSlots
   - 
   - 
   - 
