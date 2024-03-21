@@ -1,0 +1,4350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &548860427224846668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7477947349631623863}
+  m_Layer: 0
+  m_Name: Bip001 R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7477947349631623863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548860427224846668}
+  m_LocalRotation: {x: 0.7060626, y: 0.032849524, z: -0.03282483, w: 0.7066251}
+  m_LocalPosition: {x: -0.9321473, y: -0.000000043042423, z: -0.00000010004281}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4358313740536691013}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 76.43521, y: 36.957363, z: 35.945522}
+--- !u!1 &676410701933984669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6958942144254212467}
+  m_Layer: 0
+  m_Name: Bip001 R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6958942144254212467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676410701933984669}
+  m_LocalRotation: {x: -0.046000514, y: -0.22334546, z: -0.2665291, w: 0.93646306}
+  m_LocalPosition: {x: -0.91141796, y: 0.00000007911429, z: -0.00000012170764}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+  m_Children:
+  - {fileID: 617923038335091682}
+  m_Father: {fileID: 2898274038928943941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.676044, y: -17.979164, z: -15.573774}
+--- !u!1 &728192310656572076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6608453922780833628}
+  m_Layer: 0
+  m_Name: Bip001 L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6608453922780833628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728192310656572076}
+  m_LocalRotation: {x: 0.060928844, y: 0.17905112, z: -0.21847573, w: 0.9573384}
+  m_LocalPosition: {x: -0.91141766, y: -0.00000009774304, z: 0.000000012162179}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 5725826800832889115}
+  m_Father: {fileID: 711805871481615036}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 7.7825933, y: 8.921351, z: -29.905144}
+--- !u!1 &786862218618282463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690308884935699729}
+  m_Layer: 0
+  m_Name: Bone003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690308884935699729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786862218618282463}
+  m_LocalRotation: {x: 0.43816686, y: 0.6970287, z: 0.31349802, w: -0.47315937}
+  m_LocalPosition: {x: -0.50864196, y: 0.08017822, z: 0.0839908}
+  m_LocalScale: {x: -1.0000006, y: -0.99999964, z: -0.99999976}
+  m_Children: []
+  m_Father: {fileID: 3543868482746119836}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &933459477760690756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6476854333779507618}
+  m_Layer: 0
+  m_Name: Bip001 L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6476854333779507618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933459477760690756}
+  m_LocalRotation: {x: -0.7819183, y: -0.038677413, z: 0.043664508, w: 0.62064594}
+  m_LocalPosition: {x: -0.9321473, y: -0.00000021953136, z: 0.00000012080974}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4644059493802350510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -74.63537, y: -103.86949, z: 102.974625}
+--- !u!1 &967389986077700643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7520535440052812532}
+  m_Layer: 0
+  m_Name: Bip001 R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7520535440052812532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967389986077700643}
+  m_LocalRotation: {x: 0.3442589, y: 0.23840357, z: 0.2663558, w: 0.8681614}
+  m_LocalPosition: {x: -0.03077633, y: 0.000000027161892, z: 0.000000034724902}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 4358313740536691013}
+  m_Father: {fileID: 7638991581094912105}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 67.89493, y: 51.745567, z: 18.092697}
+--- !u!1 &1085655663191144700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5048619388522849748}
+  m_Layer: 0
+  m_Name: Bip001 Xtra01Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5048619388522849748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085655663191144700}
+  m_LocalRotation: {x: 0.7073882, y: -0.7068252, z: -0.0000009802252, w: -0.000000981006}
+  m_LocalPosition: {x: -1.3102322, y: -0.00000001544012, z: 0.00000015910939}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1741218202500103168}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00015937054, y: -180, z: -90.045616}
+--- !u!1 &1301904014136479770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8296158207177516303}
+  m_Layer: 0
+  m_Name: Bip001 Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8296158207177516303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301904014136479770}
+  m_LocalRotation: {x: 0.07032649, y: -0.0029484585, z: -0.07721355, w: 0.9945268}
+  m_LocalPosition: {x: -0.7856455, y: -0.00064038363, z: -0.00009217883}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 9078099542329804698}
+  m_Father: {fileID: 9133898724227483795}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.62275577, y: 2.6128597, z: -18.86781}
+--- !u!1 &1823387989072538648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4905313124275344283}
+  m_Layer: 0
+  m_Name: Bip001 Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4905313124275344283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823387989072538648}
+  m_LocalRotation: {x: 0.029163778, y: -0.031542305, z: -0.7335709, w: 0.67825395}
+  m_LocalPosition: {x: 0.19840999, y: -0.015571687, z: -2.3099918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3772100958386361374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.6690403, y: 16.29667, z: -88.71665}
+--- !u!1 &1999698376123467874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999698376123467873}
+  - component: {fileID: 1999698376123467879}
+  - component: {fileID: 1999698376123467872}
+  - component: {fileID: 7467606817448629515}
+  - component: {fileID: 807276374}
+  - component: {fileID: 807276388}
+  m_Layer: 11
+  m_Name: LegRight
+  m_TagString: UTM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1999698376123467873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1999698376123467879
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6718947497816898733, guid: f301e30cb49808443bab055199672338, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -6281523205015600045, guid: f301e30cb49808443bab055199672338, type: 3}
+  m_Bones:
+  - {fileID: 4390047371787493649}
+  - {fileID: 585986696175785261}
+  - {fileID: 2898274038928943941}
+  - {fileID: 6958942144254212467}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1999698376123467872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Thigh
+    boneTransform: {fileID: 4390047371787493649}
+    bindPose:
+      e00: -0.18499891
+      e01: -0.05364351
+      e02: 0.9812736
+      e03: -2.4609303
+      e10: 0.015313408
+      e11: -0.9985452
+      e12: -0.05170069
+      e13: -0.11519888
+      e20: 0.9826195
+      e21: 0.0054620695
+      e22: 0.18555126
+      e23: -1.2242448
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Thigh
+    boneTransform: {fileID: 6100751506352341740}
+    bindPose:
+      e00: 0.18499687
+      e01: -0.053642638
+      e02: 0.98127395
+      e03: -2.461004
+      e10: -0.015316453
+      e11: -0.9985452
+      e12: -0.051699214
+      e13: -0.1151967
+      e20: 0.9826197
+      e21: -0.0054654446
+      e22: -0.18554936
+      e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Forearm
+    boneTransform: {fileID: 4644059493802350510}
+    bindPose:
+      e00: 0.041349236
+      e01: 0.996059
+      e02: 0.07846328
+      e03: -0.11692602
+      e10: -0.69318765
+      e11: 0.085155256
+      e12: -0.715709
+      e13: 1.8996866
+      e20: -0.7195699
+      e21: -0.024795769
+      e22: 0.69397694
+      e23: -3.5948517
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Calf
+    boneTransform: {fileID: 711805871481615036}
+    bindPose:
+      e00: 0.17887928
+      e01: -0.23922907
+      e02: 0.95434356
+      e03: -1.2304535
+      e10: -0.049604733
+      e11: -0.97094786
+      e12: -0.23409352
+      e13: 0.11670929
+      e20: 0.9826197
+      e21: -0.0054654707
+      e22: -0.18554933
+      e23: 1.2238612
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra01
+    boneTransform: {fileID: 5026609997574879020}
+    bindPose:
+      e00: -0.0000013787014
+      e01: -0.84276134
+      e02: 0.5382873
+      e03: -0.5692545
+      e10: 0.0000036260474
+      e11: 0.5382873
+      e12: 0.84276134
+      e13: -1.7969471
+      e20: -1
+      e21: 0.000003113772
+      e22: 0.000002313755
+      e23: 0.00018688623
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0102
+    boneTransform: {fileID: 2206294277364211197}
+    bindPose:
+      e00: -0.0000013851472
+      e01: -0.88854206
+      e02: 0.458795
+      e03: 0.6921182
+      e10: 0.0000035142407
+      e11: 0.45879492
+      e12: 0.88854206
+      e13: -1.7398679
+      e20: -1
+      e21: 0.000002843078
+      e22: 0.0000024870526
+      e23: 0.00018705936
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0103
+    boneTransform: {fileID: 2358166404984781786}
+    bindPose:
+      e00: -0.0000016230974
+      e01: -0.9847901
+      e02: 0.17374802
+      e03: 2.3532686
+      e10: 0.0000030652814
+      e11: 0.17374799
+      e12: 0.9847901
+      e13: -1.0882976
+      e20: -1
+      e21: 0.0000021309968
+      e22: 0.000002736649
+      e23: 0.00018868032
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0104
+    boneTransform: {fileID: 1741218202500103168}
+    bindPose:
+      e00: -0.0000016594873
+      e01: -0.9998045
+      e02: 0.019776745
+      e03: 3.6385307
+      e10: 0.0000027448925
+      e11: 0.019776745
+      e12: 0.9998044
+      e13: -0.5324379
+      e20: -1
+      e21: 0.0000017134482
+      e22: 0.0000027115368
+      e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Foot
+    boneTransform: {fileID: 6608453922780833628}
+    bindPose:
+      e00: 0.13547288
+      e01: 0.011115527
+      e02: 0.9907186
+      e03: -0.3997731
+      e10: -0.09554967
+      e11: -0.9951298
+      e12: 0.024230668
+      e13: -0.07897077
+      e20: 0.98616296
+      e21: -0.09794545
+      e22: -0.13375099
+      e23: 1.2029908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Calf
+    boneTransform: {fileID: 2898274038928943941}
+    bindPose:
+      e00: -0.17888215
+      e01: -0.23922485
+      e02: 0.9543442
+      e03: -1.2303826
+      e10: 0.049601175
+      e11: -0.9709489
+      e12: -0.23408991
+      e13: 0.11668706
+      e20: 0.9826195
+      e21: 0.0054620863
+      e22: 0.18555124
+      e23: -1.2242445
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Hand
+    boneTransform: {fileID: 6476854333779507618}
+    bindPose:
+      e00: -0.06413902
+      e01: 0.96482646
+      e02: 0.254942
+      e03: -0.024417605
+      e10: 0.076265335
+      e11: 0.25945985
+      e12: -0.96273774
+      e13: 4.024368
+      e20: -0.9950224
+      e21: -0.042305823
+      e22: -0.09022438
+      e23: -1.0001081
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Forearm
+    boneTransform: {fileID: 4358313740536691013}
+    bindPose:
+      e00: -0.091871426
+      e01: 0.98717797
+      e02: 0.13053468
+      e03: -0.25534618
+      e10: 0.68831563
+      e11: 0.1576855
+      e12: -0.7080655
+      e13: 1.885807
+      e20: -0.7195702
+      e21: 0.024798067
+      e22: -0.6939769
+      e23: 3.595128
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Foot
+    boneTransform: {fileID: 6958942144254212467}
+    bindPose:
+      e00: -0.13643096
+      e01: 0.02116578
+      e02: 0.99042344
+      e03: -0.398902
+      e10: 0.09417317
+      e11: -0.9949668
+      e12: 0.03423525
+      e13: -0.083042175
+      e20: 0.9861632
+      e21: 0.09794206
+      e22: 0.13375108
+      e23: -1.2033744
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Hand
+    boneTransform: {fileID: 7477947349631623863}
+    bindPose:
+      e00: 0.014983402
+      e01: 0.95208853
+      e02: 0.3054553
+      e03: -0.15910618
+      e10: -0.08887007
+      e11: 0.30554867
+      e12: -0.94802
+      e13: 3.989678
+      e20: -0.99593055
+      e21: -0.0129412785
+      e22: 0.08919035
+      e23: 0.99821
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 1999698376123467879}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &7467606817448629515
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: -6281523205015600045, guid: f301e30cb49808443bab055199672338, type: 3}
+--- !u!114 &807276374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &807276388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &1999698376282338387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999698376282338386}
+  - component: {fileID: 1999698376282338384}
+  - component: {fileID: 1999698376282338385}
+  - component: {fileID: 807276375}
+  - component: {fileID: 807276387}
+  - component: {fileID: 807276391}
+  m_Layer: 11
+  m_Name: HandLeft
+  m_TagString: UTM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1999698376282338386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.13, y: -0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1999698376282338384
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8622231856638578679, guid: 6f87bfbe0bf9a7f4ea0a98b73bc21808, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4020718239812950295, guid: 6f87bfbe0bf9a7f4ea0a98b73bc21808, type: 3}
+  m_Bones:
+  - {fileID: 8296158207177516303}
+  - {fileID: 3427142517736764333}
+  - {fileID: 9133898724227483795}
+  - {fileID: 4644059493802350510}
+  - {fileID: 9078099542329804698}
+  - {fileID: 585986696175785261}
+  - {fileID: 6100751506352341740}
+  - {fileID: 6476854333779507618}
+  - {fileID: 8470080609963697297}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1999698376282338385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Thigh
+    boneTransform: {fileID: 4390047371787493649}
+    bindPose:
+      e00: -0.18499891
+      e01: -0.05364351
+      e02: 0.9812736
+      e03: -2.4609303
+      e10: 0.015313408
+      e11: -0.9985452
+      e12: -0.05170069
+      e13: -0.11519888
+      e20: 0.9826195
+      e21: 0.0054620695
+      e22: 0.18555126
+      e23: -1.2242448
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Thigh
+    boneTransform: {fileID: 6100751506352341740}
+    bindPose:
+      e00: 0.18499687
+      e01: -0.053642638
+      e02: 0.98127395
+      e03: -2.461004
+      e10: -0.015316453
+      e11: -0.9985452
+      e12: -0.051699214
+      e13: -0.1151967
+      e20: 0.9826197
+      e21: -0.0054654446
+      e22: -0.18554936
+      e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Forearm
+    boneTransform: {fileID: 4644059493802350510}
+    bindPose:
+      e00: 0.041349236
+      e01: 0.996059
+      e02: 0.07846328
+      e03: -0.11692602
+      e10: -0.69318765
+      e11: 0.085155256
+      e12: -0.715709
+      e13: 1.8996866
+      e20: -0.7195699
+      e21: -0.024795769
+      e22: 0.69397694
+      e23: -3.5948517
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Calf
+    boneTransform: {fileID: 711805871481615036}
+    bindPose:
+      e00: 0.17887928
+      e01: -0.23922907
+      e02: 0.95434356
+      e03: -1.2304535
+      e10: -0.049604733
+      e11: -0.97094786
+      e12: -0.23409352
+      e13: 0.11670929
+      e20: 0.9826197
+      e21: -0.0054654707
+      e22: -0.18554933
+      e23: 1.2238612
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra01
+    boneTransform: {fileID: 5026609997574879020}
+    bindPose:
+      e00: -0.0000013787014
+      e01: -0.84276134
+      e02: 0.5382873
+      e03: -0.5692545
+      e10: 0.0000036260474
+      e11: 0.5382873
+      e12: 0.84276134
+      e13: -1.7969471
+      e20: -1
+      e21: 0.000003113772
+      e22: 0.000002313755
+      e23: 0.00018688623
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0102
+    boneTransform: {fileID: 2206294277364211197}
+    bindPose:
+      e00: -0.0000013851472
+      e01: -0.88854206
+      e02: 0.458795
+      e03: 0.6921182
+      e10: 0.0000035142407
+      e11: 0.45879492
+      e12: 0.88854206
+      e13: -1.7398679
+      e20: -1
+      e21: 0.000002843078
+      e22: 0.0000024870526
+      e23: 0.00018705936
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0103
+    boneTransform: {fileID: 2358166404984781786}
+    bindPose:
+      e00: -0.0000016230974
+      e01: -0.9847901
+      e02: 0.17374802
+      e03: 2.3532686
+      e10: 0.0000030652814
+      e11: 0.17374799
+      e12: 0.9847901
+      e13: -1.0882976
+      e20: -1
+      e21: 0.0000021309968
+      e22: 0.000002736649
+      e23: 0.00018868032
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0104
+    boneTransform: {fileID: 1741218202500103168}
+    bindPose:
+      e00: -0.0000016594873
+      e01: -0.9998045
+      e02: 0.019776745
+      e03: 3.6385307
+      e10: 0.0000027448925
+      e11: 0.019776745
+      e12: 0.9998044
+      e13: -0.5324379
+      e20: -1
+      e21: 0.0000017134482
+      e22: 0.0000027115368
+      e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Foot
+    boneTransform: {fileID: 6608453922780833628}
+    bindPose:
+      e00: 0.13547288
+      e01: 0.011115527
+      e02: 0.9907186
+      e03: -0.3997731
+      e10: -0.09554967
+      e11: -0.9951298
+      e12: 0.024230668
+      e13: -0.07897077
+      e20: 0.98616296
+      e21: -0.09794545
+      e22: -0.13375099
+      e23: 1.2029908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Calf
+    boneTransform: {fileID: 2898274038928943941}
+    bindPose:
+      e00: -0.17888215
+      e01: -0.23922485
+      e02: 0.9543442
+      e03: -1.2303826
+      e10: 0.049601175
+      e11: -0.9709489
+      e12: -0.23408991
+      e13: 0.11668706
+      e20: 0.9826195
+      e21: 0.0054620863
+      e22: 0.18555124
+      e23: -1.2242445
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Hand
+    boneTransform: {fileID: 6476854333779507618}
+    bindPose:
+      e00: -0.06413902
+      e01: 0.96482646
+      e02: 0.254942
+      e03: -0.024417605
+      e10: 0.076265335
+      e11: 0.25945985
+      e12: -0.96273774
+      e13: 4.024368
+      e20: -0.9950224
+      e21: -0.042305823
+      e22: -0.09022438
+      e23: -1.0001081
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Forearm
+    boneTransform: {fileID: 4358313740536691013}
+    bindPose:
+      e00: -0.091871426
+      e01: 0.98717797
+      e02: 0.13053468
+      e03: -0.25534618
+      e10: 0.68831563
+      e11: 0.1576855
+      e12: -0.7080655
+      e13: 1.885807
+      e20: -0.7195702
+      e21: 0.024798067
+      e22: -0.6939769
+      e23: 3.595128
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Foot
+    boneTransform: {fileID: 6958942144254212467}
+    bindPose:
+      e00: -0.13643096
+      e01: 0.02116578
+      e02: 0.99042344
+      e03: -0.398902
+      e10: 0.09417317
+      e11: -0.9949668
+      e12: 0.03423525
+      e13: -0.083042175
+      e20: 0.9861632
+      e21: 0.09794206
+      e22: 0.13375108
+      e23: -1.2033744
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Hand
+    boneTransform: {fileID: 7477947349631623863}
+    bindPose:
+      e00: 0.014983402
+      e01: 0.95208853
+      e02: 0.3054553
+      e03: -0.15910618
+      e10: -0.08887007
+      e11: 0.30554867
+      e12: -0.94802
+      e13: 3.989678
+      e20: -0.99593055
+      e21: -0.0129412785
+      e22: 0.08919035
+      e23: 0.99821
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 1999698376282338384}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &807276375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: 4020718239812950295, guid: 6f87bfbe0bf9a7f4ea0a98b73bc21808, type: 3}
+--- !u!114 &807276387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &807276391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &1999698376805134394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999698376805134393}
+  - component: {fileID: 1999698376805134399}
+  - component: {fileID: 1999698376805134392}
+  - component: {fileID: 8502921549008955035}
+  - component: {fileID: 807276385}
+  - component: {fileID: 807276390}
+  m_Layer: 11
+  m_Name: HandRight
+  m_TagString: UTM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1999698376805134393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1999698376805134399
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8622231856638578679, guid: 961511d4f49fa4b429098231901260e5, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 342329067880986933, guid: 961511d4f49fa4b429098231901260e5, type: 3}
+  m_Bones:
+  - {fileID: 8296158207177516303}
+  - {fileID: 7520535440052812532}
+  - {fileID: 9133898724227483795}
+  - {fileID: 4358313740536691013}
+  - {fileID: 4390047371787493649}
+  - {fileID: 585986696175785261}
+  - {fileID: 9078099542329804698}
+  - {fileID: 7477947349631623863}
+  - {fileID: 8470080609963697297}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1999698376805134392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Thigh
+    boneTransform: {fileID: 4390047371787493649}
+    bindPose:
+      e00: -0.18499891
+      e01: -0.05364351
+      e02: 0.9812736
+      e03: -2.4609303
+      e10: 0.015313408
+      e11: -0.9985452
+      e12: -0.05170069
+      e13: -0.11519888
+      e20: 0.9826195
+      e21: 0.0054620695
+      e22: 0.18555126
+      e23: -1.2242448
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Thigh
+    boneTransform: {fileID: 6100751506352341740}
+    bindPose:
+      e00: 0.18499687
+      e01: -0.053642638
+      e02: 0.98127395
+      e03: -2.461004
+      e10: -0.015316453
+      e11: -0.9985452
+      e12: -0.051699214
+      e13: -0.1151967
+      e20: 0.9826197
+      e21: -0.0054654446
+      e22: -0.18554936
+      e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Forearm
+    boneTransform: {fileID: 4644059493802350510}
+    bindPose:
+      e00: 0.041349236
+      e01: 0.996059
+      e02: 0.07846328
+      e03: -0.11692602
+      e10: -0.69318765
+      e11: 0.085155256
+      e12: -0.715709
+      e13: 1.8996866
+      e20: -0.7195699
+      e21: -0.024795769
+      e22: 0.69397694
+      e23: -3.5948517
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Calf
+    boneTransform: {fileID: 711805871481615036}
+    bindPose:
+      e00: 0.17887928
+      e01: -0.23922907
+      e02: 0.95434356
+      e03: -1.2304535
+      e10: -0.049604733
+      e11: -0.97094786
+      e12: -0.23409352
+      e13: 0.11670929
+      e20: 0.9826197
+      e21: -0.0054654707
+      e22: -0.18554933
+      e23: 1.2238612
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra01
+    boneTransform: {fileID: 5026609997574879020}
+    bindPose:
+      e00: -0.0000013787014
+      e01: -0.84276134
+      e02: 0.5382873
+      e03: -0.5692545
+      e10: 0.0000036260474
+      e11: 0.5382873
+      e12: 0.84276134
+      e13: -1.7969471
+      e20: -1
+      e21: 0.000003113772
+      e22: 0.000002313755
+      e23: 0.00018688623
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0102
+    boneTransform: {fileID: 2206294277364211197}
+    bindPose:
+      e00: -0.0000013851472
+      e01: -0.88854206
+      e02: 0.458795
+      e03: 0.6921182
+      e10: 0.0000035142407
+      e11: 0.45879492
+      e12: 0.88854206
+      e13: -1.7398679
+      e20: -1
+      e21: 0.000002843078
+      e22: 0.0000024870526
+      e23: 0.00018705936
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0103
+    boneTransform: {fileID: 2358166404984781786}
+    bindPose:
+      e00: -0.0000016230974
+      e01: -0.9847901
+      e02: 0.17374802
+      e03: 2.3532686
+      e10: 0.0000030652814
+      e11: 0.17374799
+      e12: 0.9847901
+      e13: -1.0882976
+      e20: -1
+      e21: 0.0000021309968
+      e22: 0.000002736649
+      e23: 0.00018868032
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0104
+    boneTransform: {fileID: 1741218202500103168}
+    bindPose:
+      e00: -0.0000016594873
+      e01: -0.9998045
+      e02: 0.019776745
+      e03: 3.6385307
+      e10: 0.0000027448925
+      e11: 0.019776745
+      e12: 0.9998044
+      e13: -0.5324379
+      e20: -1
+      e21: 0.0000017134482
+      e22: 0.0000027115368
+      e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Foot
+    boneTransform: {fileID: 6608453922780833628}
+    bindPose:
+      e00: 0.13547288
+      e01: 0.011115527
+      e02: 0.9907186
+      e03: -0.3997731
+      e10: -0.09554967
+      e11: -0.9951298
+      e12: 0.024230668
+      e13: -0.07897077
+      e20: 0.98616296
+      e21: -0.09794545
+      e22: -0.13375099
+      e23: 1.2029908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Calf
+    boneTransform: {fileID: 2898274038928943941}
+    bindPose:
+      e00: -0.17888215
+      e01: -0.23922485
+      e02: 0.9543442
+      e03: -1.2303826
+      e10: 0.049601175
+      e11: -0.9709489
+      e12: -0.23408991
+      e13: 0.11668706
+      e20: 0.9826195
+      e21: 0.0054620863
+      e22: 0.18555124
+      e23: -1.2242445
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Hand
+    boneTransform: {fileID: 6476854333779507618}
+    bindPose:
+      e00: -0.06413902
+      e01: 0.96482646
+      e02: 0.254942
+      e03: -0.024417605
+      e10: 0.076265335
+      e11: 0.25945985
+      e12: -0.96273774
+      e13: 4.024368
+      e20: -0.9950224
+      e21: -0.042305823
+      e22: -0.09022438
+      e23: -1.0001081
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Forearm
+    boneTransform: {fileID: 4358313740536691013}
+    bindPose:
+      e00: -0.091871426
+      e01: 0.98717797
+      e02: 0.13053468
+      e03: -0.25534618
+      e10: 0.68831563
+      e11: 0.1576855
+      e12: -0.7080655
+      e13: 1.885807
+      e20: -0.7195702
+      e21: 0.024798067
+      e22: -0.6939769
+      e23: 3.595128
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Foot
+    boneTransform: {fileID: 6958942144254212467}
+    bindPose:
+      e00: -0.13643096
+      e01: 0.02116578
+      e02: 0.99042344
+      e03: -0.398902
+      e10: 0.09417317
+      e11: -0.9949668
+      e12: 0.03423525
+      e13: -0.083042175
+      e20: 0.9861632
+      e21: 0.09794206
+      e22: 0.13375108
+      e23: -1.2033744
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Hand
+    boneTransform: {fileID: 7477947349631623863}
+    bindPose:
+      e00: 0.014983402
+      e01: 0.95208853
+      e02: 0.3054553
+      e03: -0.15910618
+      e10: -0.08887007
+      e11: 0.30554867
+      e12: -0.94802
+      e13: 3.989678
+      e20: -0.99593055
+      e21: -0.0129412785
+      e22: 0.08919035
+      e23: 0.99821
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 1999698376805134399}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &8502921549008955035
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: 342329067880986933, guid: 961511d4f49fa4b429098231901260e5, type: 3}
+--- !u!114 &807276385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &807276390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &1999698377893255810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999698377893255809}
+  - component: {fileID: 1999698377893255815}
+  - component: {fileID: 1999698377893255808}
+  - component: {fileID: 9038926462820782897}
+  - component: {fileID: 9069988546179001300}
+  - component: {fileID: 807276389}
+  m_Layer: 11
+  m_Name: LegLeft
+  m_TagString: UTM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1999698377893255809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1999698377893255815
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 934714567791821240, guid: f301e30cb49808443bab055199672338, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 7836327355448512683, guid: f301e30cb49808443bab055199672338, type: 3}
+  m_Bones:
+  - {fileID: 585986696175785261}
+  - {fileID: 6100751506352341740}
+  - {fileID: 9133898724227483795}
+  - {fileID: 711805871481615036}
+  - {fileID: 8296158207177516303}
+  - {fileID: 5026609997574879020}
+  - {fileID: 6608453922780833628}
+  - {fileID: 4390047371787493649}
+  - {fileID: 4644059493802350510}
+  - {fileID: 3427142517736764333}
+  - {fileID: 5725826800832889115}
+  - {fileID: 2206294277364211197}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1999698377893255808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Thigh
+    boneTransform: {fileID: 4390047371787493649}
+    bindPose:
+      e00: -0.18499891
+      e01: -0.05364351
+      e02: 0.9812736
+      e03: -2.4609303
+      e10: 0.015313408
+      e11: -0.9985452
+      e12: -0.05170069
+      e13: -0.11519888
+      e20: 0.9826195
+      e21: 0.0054620695
+      e22: 0.18555126
+      e23: -1.2242448
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Thigh
+    boneTransform: {fileID: 6100751506352341740}
+    bindPose:
+      e00: 0.18499687
+      e01: -0.053642638
+      e02: 0.98127395
+      e03: -2.461004
+      e10: -0.015316453
+      e11: -0.9985452
+      e12: -0.051699214
+      e13: -0.1151967
+      e20: 0.9826197
+      e21: -0.0054654446
+      e22: -0.18554936
+      e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Forearm
+    boneTransform: {fileID: 4644059493802350510}
+    bindPose:
+      e00: 0.041349236
+      e01: 0.996059
+      e02: 0.07846328
+      e03: -0.11692602
+      e10: -0.69318765
+      e11: 0.085155256
+      e12: -0.715709
+      e13: 1.8996866
+      e20: -0.7195699
+      e21: -0.024795769
+      e22: 0.69397694
+      e23: -3.5948517
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Calf
+    boneTransform: {fileID: 711805871481615036}
+    bindPose:
+      e00: 0.17887928
+      e01: -0.23922907
+      e02: 0.95434356
+      e03: -1.2304535
+      e10: -0.049604733
+      e11: -0.97094786
+      e12: -0.23409352
+      e13: 0.11670929
+      e20: 0.9826197
+      e21: -0.0054654707
+      e22: -0.18554933
+      e23: 1.2238612
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra01
+    boneTransform: {fileID: 5026609997574879020}
+    bindPose:
+      e00: -0.0000013787014
+      e01: -0.84276134
+      e02: 0.5382873
+      e03: -0.5692545
+      e10: 0.0000036260474
+      e11: 0.5382873
+      e12: 0.84276134
+      e13: -1.7969471
+      e20: -1
+      e21: 0.000003113772
+      e22: 0.000002313755
+      e23: 0.00018688623
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0102
+    boneTransform: {fileID: 2206294277364211197}
+    bindPose:
+      e00: -0.0000013851472
+      e01: -0.88854206
+      e02: 0.458795
+      e03: 0.6921182
+      e10: 0.0000035142407
+      e11: 0.45879492
+      e12: 0.88854206
+      e13: -1.7398679
+      e20: -1
+      e21: 0.000002843078
+      e22: 0.0000024870526
+      e23: 0.00018705936
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0103
+    boneTransform: {fileID: 2358166404984781786}
+    bindPose:
+      e00: -0.0000016230974
+      e01: -0.9847901
+      e02: 0.17374802
+      e03: 2.3532686
+      e10: 0.0000030652814
+      e11: 0.17374799
+      e12: 0.9847901
+      e13: -1.0882976
+      e20: -1
+      e21: 0.0000021309968
+      e22: 0.000002736649
+      e23: 0.00018868032
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0104
+    boneTransform: {fileID: 1741218202500103168}
+    bindPose:
+      e00: -0.0000016594873
+      e01: -0.9998045
+      e02: 0.019776745
+      e03: 3.6385307
+      e10: 0.0000027448925
+      e11: 0.019776745
+      e12: 0.9998044
+      e13: -0.5324379
+      e20: -1
+      e21: 0.0000017134482
+      e22: 0.0000027115368
+      e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Foot
+    boneTransform: {fileID: 6608453922780833628}
+    bindPose:
+      e00: 0.13547288
+      e01: 0.011115527
+      e02: 0.9907186
+      e03: -0.3997731
+      e10: -0.09554967
+      e11: -0.9951298
+      e12: 0.024230668
+      e13: -0.07897077
+      e20: 0.98616296
+      e21: -0.09794545
+      e22: -0.13375099
+      e23: 1.2029908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Calf
+    boneTransform: {fileID: 2898274038928943941}
+    bindPose:
+      e00: -0.17888215
+      e01: -0.23922485
+      e02: 0.9543442
+      e03: -1.2303826
+      e10: 0.049601175
+      e11: -0.9709489
+      e12: -0.23408991
+      e13: 0.11668706
+      e20: 0.9826195
+      e21: 0.0054620863
+      e22: 0.18555124
+      e23: -1.2242445
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Hand
+    boneTransform: {fileID: 6476854333779507618}
+    bindPose:
+      e00: -0.06413902
+      e01: 0.96482646
+      e02: 0.254942
+      e03: -0.024417605
+      e10: 0.076265335
+      e11: 0.25945985
+      e12: -0.96273774
+      e13: 4.024368
+      e20: -0.9950224
+      e21: -0.042305823
+      e22: -0.09022438
+      e23: -1.0001081
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Forearm
+    boneTransform: {fileID: 4358313740536691013}
+    bindPose:
+      e00: -0.091871426
+      e01: 0.98717797
+      e02: 0.13053468
+      e03: -0.25534618
+      e10: 0.68831563
+      e11: 0.1576855
+      e12: -0.7080655
+      e13: 1.885807
+      e20: -0.7195702
+      e21: 0.024798067
+      e22: -0.6939769
+      e23: 3.595128
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Foot
+    boneTransform: {fileID: 6958942144254212467}
+    bindPose:
+      e00: -0.13643096
+      e01: 0.02116578
+      e02: 0.99042344
+      e03: -0.398902
+      e10: 0.09417317
+      e11: -0.9949668
+      e12: 0.03423525
+      e13: -0.083042175
+      e20: 0.9861632
+      e21: 0.09794206
+      e22: 0.13375108
+      e23: -1.2033744
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Hand
+    boneTransform: {fileID: 7477947349631623863}
+    bindPose:
+      e00: 0.014983402
+      e01: 0.95208853
+      e02: 0.3054553
+      e03: -0.15910618
+      e10: -0.08887007
+      e11: 0.30554867
+      e12: -0.94802
+      e13: 3.989678
+      e20: -0.99593055
+      e21: -0.0129412785
+      e22: 0.08919035
+      e23: 0.99821
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 1999698377893255815}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &9038926462820782897
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 0
+  m_Mesh: {fileID: 7836327355448512683, guid: f301e30cb49808443bab055199672338, type: 3}
+--- !u!114 &9069988546179001300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &807276389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &2092933928877500229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 328855534974651379}
+  m_Layer: 0
+  m_Name: Bip001 L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328855534974651379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092933928877500229}
+  m_LocalRotation: {x: -0.603763, y: -0.21331404, z: 0.7242218, w: -0.25587153}
+  m_LocalPosition: {x: 0.293231, y: 0.14688742, z: 0.60702074}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 3427142517736764333}
+  m_Father: {fileID: 9078099542329804698}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.54964274, y: -80.28712, z: 171.07916}
+--- !u!1 &2352329741120814879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1741218202500103168}
+  m_Layer: 0
+  m_Name: Bip001 Xtra0104
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1741218202500103168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2352329741120814879}
+  m_LocalRotation: {x: 0.013085394, y: -0.07579508, z: -0.111734785, w: 0.9907569}
+  m_LocalPosition: {x: -1.1596694, y: -0.0010169453, z: -0.000045165318}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 5048619388522849748}
+  m_Father: {fileID: 2358166404984781786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.627397, y: -30.409748, z: 10.848723}
+--- !u!1 &2386397102489848270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3522913160566783119}
+  m_Layer: 0
+  m_Name: Bone002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3522913160566783119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2386397102489848270}
+  m_LocalRotation: {x: 0.69074935, y: -0.449222, z: 0.48228034, w: 0.2974401}
+  m_LocalPosition: {x: -0.5086322, y: 0.0801828, z: -0.08360512}
+  m_LocalScale: {x: 1.0000008, y: 0.9999998, z: 0.9999997}
+  m_Children: []
+  m_Father: {fileID: 3543868482746119836}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2811599322183721397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2424964164635938993}
+  m_Layer: 0
+  m_Name: Bip001 L Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2424964164635938993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811599322183721397}
+  m_LocalRotation: {x: 9.3132246e-10, y: 0.0000000074505797, z: 1, w: 5.429345e-17}
+  m_LocalPosition: {x: -0.4550257, y: 8.813566e-11, z: 0.000000072584136}
+  m_LocalScale: {x: -1.0000001, y: -1.0000001, z: -1}
+  m_Children: []
+  m_Father: {fileID: 5725826800832889115}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000010803484, y: -0.0000002700871, z: 180}
+--- !u!1 &2932505267232954960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4750752440107411530}
+  m_Layer: 0
+  m_Name: Bip001 HeadNub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4750752440107411530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2932505267232954960}
+  m_LocalRotation: {x: -5.6843412e-14, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.64117604, y: -0.00000017692933, z: -0.0000000033952365}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3543868482746119836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000013504349, y: 4.0246097e-15, z: 0.0000021606959}
+--- !u!1 &3010890175259204193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8470080609963697297}
+  m_Layer: 0
+  m_Name: Bip001 Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8470080609963697297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3010890175259204193}
+  m_LocalRotation: {x: 0.0017980385, y: -0.0022537468, z: -0.07748059, w: 0.9969897}
+  m_LocalPosition: {x: -0.46672782, y: -0.00030571944, z: -0.0000011976374}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3543868482746119836}
+  m_Father: {fileID: 9078099542329804698}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.268619, y: -5.252006, z: -4.5652914}
+--- !u!1 &3325511740229038263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391444307263425082}
+  m_Layer: 0
+  m_Name: Bone001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391444307263425082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3325511740229038263}
+  m_LocalRotation: {x: -0.49281916, y: 0.87013173, z: 0.00000009638411, w: 0.00000071057093}
+  m_LocalPosition: {x: -0.011529541, y: 0.103747554, z: 0.00019131397}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 3543868482746119836}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.000049738446, y: 179.99992, z: -59.05209}
+--- !u!1 &3591648068234032188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9078099542329804698}
+  m_Layer: 0
+  m_Name: Bip001 Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9078099542329804698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591648068234032188}
+  m_LocalRotation: {x: 0.0000001352393, y: 0.000001017219, z: -0.33275086, w: 0.9430148}
+  m_LocalPosition: {x: -1.0247805, y: -0.13591228, z: -0.00000019448316}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 328855534974651379}
+  - {fileID: 8470080609963697297}
+  - {fileID: 7638991581094912105}
+  m_Father: {fileID: 8296158207177516303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.9056373, y: 0.48019904, z: -0.39864856}
+--- !u!1 &3790991610211388078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4644059493802350510}
+  m_Layer: 0
+  m_Name: Bip001 L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644059493802350510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3790991610211388078}
+  m_LocalRotation: {x: 0.00000001844144, y: 0.000000041506237, z: 0.64875597, w: 0.7609966}
+  m_LocalPosition: {x: -0.9048417, y: 0.00000006345395, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 6476854333779507618}
+  m_Father: {fileID: 3427142517736764333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000084907115, y: -0.000014713594, z: 65.90755}
+--- !u!1 &4214304596105140308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2358166404984781786}
+  m_Layer: 0
+  m_Name: Bip001 Xtra0103
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2358166404984781786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214304596105140308}
+  m_LocalRotation: {x: 0.0015006725, y: -0.10432156, z: -0.14304711, w: 0.9842013}
+  m_LocalPosition: {x: -1.2309324, y: -0.0008860571, z: -0.000029508315}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 1741218202500103168}
+  m_Father: {fileID: 2206294277364211197}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.092033, y: -3.5200121, z: 8.899212}
+--- !u!1 &4562625744184138984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9133898724227483795}
+  m_Layer: 0
+  m_Name: Bip001 Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9133898724227483795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4562625744184138984}
+  m_LocalRotation: {x: 0.025896989, y: -0.00047288195, z: -0.047729723, w: 0.9985244}
+  m_LocalPosition: {x: -0.37499535, y: -0.0006226155, z: -0.000031903524}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 6100751506352341740}
+  - {fileID: 4390047371787493649}
+  - {fileID: 8296158207177516303}
+  m_Father: {fileID: 585986696175785261}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15.133944, y: -0.24976146, z: -24.192217}
+--- !u!1 &4802032659783321191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6100751506352341740}
+  m_Layer: 0
+  m_Name: Bip001 L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6100751506352341740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802032659783321191}
+  m_LocalRotation: {x: -0.16769895, y: 0.9634777, z: 0.076291665, w: 0.19433847}
+  m_LocalPosition: {x: 0.37182125, y: 0.076061174, z: 0.7469827}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 711805871481615036}
+  m_Father: {fileID: 9133898724227483795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -10.016958, y: 176.62184, z: -76.10628}
+--- !u!1 &4902922620969742365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2206294277364211197}
+  m_Layer: 0
+  m_Name: Bip001 Xtra0102
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2206294277364211197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902922620969742365}
+  m_LocalRotation: {x: -0.0071429294, y: -0.08240326, z: -0.21252957, w: 0.9736477}
+  m_LocalPosition: {x: -1.0993433, y: -0.0008914197, z: -0.00002028274}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 2358166404984781786}
+  m_Father: {fileID: 5026609997574879020}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.09877488, y: -0.6169176, z: -8.245224}
+--- !u!1 &5673354653888873512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3543868482746119836}
+  m_Layer: 0
+  m_Name: Bip001 Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3543868482746119836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5673354653888873512}
+  m_LocalRotation: {x: -0.077003404, y: -0.05722153, z: 0.21953109, w: 0.97087705}
+  m_LocalPosition: {x: -0.46874052, y: 0.20815562, z: 0.00000026746497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4750752440107411530}
+  - {fileID: 391444307263425082}
+  - {fileID: 3522913160566783119}
+  - {fileID: 690308884935699729}
+  m_Father: {fileID: 8470080609963697297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.2998679, y: -0.2980547, z: 8.220756}
+--- !u!1 &5692548486467723540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5110747979926023539}
+  - component: {fileID: 2027390831650964899}
+  - component: {fileID: 1999698377795230192}
+  - component: {fileID: 244655048}
+  - component: {fileID: 244655047}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5110747979926023539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2027390831650964899
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8622231856638578679, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 7459652162776261291, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+  m_Bones:
+  - {fileID: 8296158207177516303}
+  - {fileID: 3543868482746119836}
+  - {fileID: 9078099542329804698}
+  - {fileID: 8470080609963697297}
+  - {fileID: 391444307263425082}
+  - {fileID: 9133898724227483795}
+  - {fileID: 3427142517736764333}
+  - {fileID: 690308884935699729}
+  - {fileID: 4390047371787493649}
+  - {fileID: 6100751506352341740}
+  - {fileID: 4644059493802350510}
+  - {fileID: 585986696175785261}
+  - {fileID: 711805871481615036}
+  - {fileID: 5026609997574879020}
+  - {fileID: 7520535440052812532}
+  - {fileID: 2206294277364211197}
+  - {fileID: 2358166404984781786}
+  - {fileID: 1741218202500103168}
+  - {fileID: 6608453922780833628}
+  - {fileID: 2898274038928943941}
+  - {fileID: 6476854333779507618}
+  - {fileID: 3522913160566783119}
+  - {fileID: 4358313740536691013}
+  - {fileID: 6958942144254212467}
+  - {fileID: 7477947349631623863}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1999698377795230192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Thigh
+    boneTransform: {fileID: 4390047371787493649}
+    bindPose:
+      e00: -0.18499891
+      e01: -0.05364351
+      e02: 0.9812736
+      e03: -2.4609303
+      e10: 0.015313408
+      e11: -0.9985452
+      e12: -0.05170069
+      e13: -0.11519888
+      e20: 0.9826195
+      e21: 0.0054620695
+      e22: 0.18555126
+      e23: -1.2242448
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Thigh
+    boneTransform: {fileID: 6100751506352341740}
+    bindPose:
+      e00: 0.18499687
+      e01: -0.053642638
+      e02: 0.98127395
+      e03: -2.461004
+      e10: -0.015316453
+      e11: -0.9985452
+      e12: -0.051699214
+      e13: -0.1151967
+      e20: 0.9826197
+      e21: -0.0054654446
+      e22: -0.18554936
+      e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Forearm
+    boneTransform: {fileID: 4644059493802350510}
+    bindPose:
+      e00: 0.041349236
+      e01: 0.996059
+      e02: 0.07846328
+      e03: -0.11692602
+      e10: -0.69318765
+      e11: 0.085155256
+      e12: -0.715709
+      e13: 1.8996866
+      e20: -0.7195699
+      e21: -0.024795769
+      e22: 0.69397694
+      e23: -3.5948517
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Calf
+    boneTransform: {fileID: 711805871481615036}
+    bindPose:
+      e00: 0.17887928
+      e01: -0.23922907
+      e02: 0.95434356
+      e03: -1.2304535
+      e10: -0.049604733
+      e11: -0.97094786
+      e12: -0.23409352
+      e13: 0.11670929
+      e20: 0.9826197
+      e21: -0.0054654707
+      e22: -0.18554933
+      e23: 1.2238612
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra01
+    boneTransform: {fileID: 5026609997574879020}
+    bindPose:
+      e00: -0.0000013787014
+      e01: -0.84276134
+      e02: 0.5382873
+      e03: -0.5692545
+      e10: 0.0000036260474
+      e11: 0.5382873
+      e12: 0.84276134
+      e13: -1.7969471
+      e20: -1
+      e21: 0.000003113772
+      e22: 0.000002313755
+      e23: 0.00018688623
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0102
+    boneTransform: {fileID: 2206294277364211197}
+    bindPose:
+      e00: -0.0000013851472
+      e01: -0.88854206
+      e02: 0.458795
+      e03: 0.6921182
+      e10: 0.0000035142407
+      e11: 0.45879492
+      e12: 0.88854206
+      e13: -1.7398679
+      e20: -1
+      e21: 0.000002843078
+      e22: 0.0000024870526
+      e23: 0.00018705936
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0103
+    boneTransform: {fileID: 2358166404984781786}
+    bindPose:
+      e00: -0.0000016230974
+      e01: -0.9847901
+      e02: 0.17374802
+      e03: 2.3532686
+      e10: 0.0000030652814
+      e11: 0.17374799
+      e12: 0.9847901
+      e13: -1.0882976
+      e20: -1
+      e21: 0.0000021309968
+      e22: 0.000002736649
+      e23: 0.00018868032
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Xtra0104
+    boneTransform: {fileID: 1741218202500103168}
+    bindPose:
+      e00: -0.0000016594873
+      e01: -0.9998045
+      e02: 0.019776745
+      e03: 3.6385307
+      e10: 0.0000027448925
+      e11: 0.019776745
+      e12: 0.9998044
+      e13: -0.5324379
+      e20: -1
+      e21: 0.0000017134482
+      e22: 0.0000027115368
+      e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Foot
+    boneTransform: {fileID: 6608453922780833628}
+    bindPose:
+      e00: 0.13547288
+      e01: 0.011115527
+      e02: 0.9907186
+      e03: -0.3997731
+      e10: -0.09554967
+      e11: -0.9951298
+      e12: 0.024230668
+      e13: -0.07897077
+      e20: 0.98616296
+      e21: -0.09794545
+      e22: -0.13375099
+      e23: 1.2029908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Calf
+    boneTransform: {fileID: 2898274038928943941}
+    bindPose:
+      e00: -0.17888215
+      e01: -0.23922485
+      e02: 0.9543442
+      e03: -1.2303826
+      e10: 0.049601175
+      e11: -0.9709489
+      e12: -0.23408991
+      e13: 0.11668706
+      e20: 0.9826195
+      e21: 0.0054620863
+      e22: 0.18555124
+      e23: -1.2242445
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L Hand
+    boneTransform: {fileID: 6476854333779507618}
+    bindPose:
+      e00: -0.06413902
+      e01: 0.96482646
+      e02: 0.254942
+      e03: -0.024417605
+      e10: 0.076265335
+      e11: 0.25945985
+      e12: -0.96273774
+      e13: 4.024368
+      e20: -0.9950224
+      e21: -0.042305823
+      e22: -0.09022438
+      e23: -1.0001081
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Forearm
+    boneTransform: {fileID: 4358313740536691013}
+    bindPose:
+      e00: -0.091871426
+      e01: 0.98717797
+      e02: 0.13053468
+      e03: -0.25534618
+      e10: 0.68831563
+      e11: 0.1576855
+      e12: -0.7080655
+      e13: 1.885807
+      e20: -0.7195702
+      e21: 0.024798067
+      e22: -0.6939769
+      e23: 3.595128
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Foot
+    boneTransform: {fileID: 6958942144254212467}
+    bindPose:
+      e00: -0.13643096
+      e01: 0.02116578
+      e02: 0.99042344
+      e03: -0.398902
+      e10: 0.09417317
+      e11: -0.9949668
+      e12: 0.03423525
+      e13: -0.083042175
+      e20: 0.9861632
+      e21: 0.09794206
+      e22: 0.13375108
+      e23: -1.2033744
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R Hand
+    boneTransform: {fileID: 7477947349631623863}
+    bindPose:
+      e00: 0.014983402
+      e01: 0.95208853
+      e02: 0.3054553
+      e03: -0.15910618
+      e10: -0.08887007
+      e11: 0.30554867
+      e12: -0.94802
+      e13: 3.989678
+      e20: -0.99593055
+      e21: -0.0129412785
+      e22: 0.08919035
+      e23: 0.99821
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 0}
+  aSR: {fileID: 0}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &244655048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7459652162776261291, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+--- !u!114 &244655047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6618433608955069509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2898274038928943941}
+  m_Layer: 0
+  m_Name: Bip001 R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2898274038928943941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6618433608955069509}
+  m_LocalRotation: {x: 0.00000002462148, y: 0.000000016803245, z: 0.30694452, w: 0.95172745}
+  m_LocalPosition: {x: -1.2304078, y: -0.000000005444978, z: 0.000000030501546}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 6958942144254212467}
+  m_Father: {fileID: 4390047371787493649}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000022819754, y: 0.0000036635224, z: 30.894175}
+--- !u!1 &6690944693600510279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3427142517736764333}
+  m_Layer: 0
+  m_Name: Bip001 L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3427142517736764333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690944693600510279}
+  m_LocalRotation: {x: -0.12416883, y: -0.19052458, z: 0.2262031, w: 0.9471614}
+  m_LocalPosition: {x: -0.03077644, y: 0.000000052172595, z: 0.000000086084846}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4644059493802350510}
+  m_Father: {fileID: 328855534974651379}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -38.328644, y: -36.024036, z: 17.188992}
+--- !u!1 &7035391613276257581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 585986696175785261}
+  m_Layer: 0
+  m_Name: Bip001 Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585986696175785261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035391613276257581}
+  m_LocalRotation: {x: -0.4999996, y: 0.5000004, z: 0.4999996, w: 0.5000004}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 9133898724227483795}
+  m_Father: {fileID: 3772100958386361374}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -78.569595, y: -83.788895, z: -97.87123}
+--- !u!1 &7293122839858819616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5026609997574879020}
+  m_Layer: 0
+  m_Name: Bip001 Xtra01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5026609997574879020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293122839858819616}
+  m_LocalRotation: {x: 0.16191715, y: 0.69925463, z: 0.68603444, w: -0.119090825}
+  m_LocalPosition: {x: 0.7280144, y: -0.0000051445563, z: -0.81530327}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 2206294277364211197}
+  m_Father: {fileID: 3772100958386361374}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -74.85132, y: -95.52414, z: -55.44035}
+--- !u!1 &7557521769920512096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6826031908874498675}
+  - component: {fileID: 1999698376750281519}
+  - component: {fileID: 4477140779761372222}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6826031908874498675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557521769920512096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children:
+  - {fileID: 3772100958386361374}
+  - {fileID: 5110747979926023539}
+  - {fileID: 1999698376282338386}
+  - {fileID: 1999698376805134393}
+  - {fileID: 1999698377893255809}
+  - {fileID: 1999698376123467873}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1999698376750281519
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557521769920512096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 446f56d30b27d7e4f9059cec6b4e7add, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4477140779761372222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557521769920512096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b643dc08d1412b993b044e7f093f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoneRootTransform: {fileID: 3772100958386361374}
+  animator: {fileID: 1999698376750281519}
+  bodyPartsTransforms:
+  - {fileID: 1999698376282338386}
+  - {fileID: 1999698376805134393}
+  - {fileID: 1999698377893255809}
+  - {fileID: 1999698376123467873}
+  - {fileID: 5110747979926023539}
+  selectBodyPart: {fileID: 0}
+  primaryColourPicker: {fileID: 0}
+  dynamicMountBonesSlots:
+  - {fileID: 5048619388522849748}
+  - {fileID: 4750752440107411530}
+  - {fileID: 6100751506352341740}
+  - {fileID: 4750752440107411530}
+  - {fileID: 4750752440107411530}
+  dynamicMountBoneMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  avatar: {fileID: 9000000, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+--- !u!1 &7677663337957373082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711805871481615036}
+  m_Layer: 0
+  m_Name: Bip001 L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &711805871481615036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677663337957373082}
+  m_LocalRotation: {x: -0.0000000065669226, y: 0.0000000010342786, z: 0.39447504,
+    w: 0.9189067}
+  m_LocalPosition: {x: -1.2304077, y: 0, z: -0.00000007168623}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6608453922780833628}
+  m_Father: {fileID: 6100751506352341740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000006129135, y: -0.000001745533, z: 70.69541}
+--- !u!1 &8228526106742516691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4358313740536691013}
+  m_Layer: 0
+  m_Name: Bip001 R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4358313740536691013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8228526106742516691}
+  m_LocalRotation: {x: -0.000000016054925, y: 0.00000005559814, z: 0.5984375, w: 0.8011695}
+  m_LocalPosition: {x: -0.9048417, y: 0.00000014337246, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7477947349631623863}
+  m_Father: {fileID: 7520535440052812532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00001540132, y: -0.000009673631, z: 70.3156}
+--- !u!1 &8256717757401623418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2177582933698027834}
+  m_Layer: 0
+  m_Name: Bip001 R Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2177582933698027834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256717757401623418}
+  m_LocalRotation: {x: 0.0000000074505815, y: 0.0000000025611373, z: -1.908196e-17,
+    w: 1}
+  m_LocalPosition: {x: -0.45502573, y: 8.430745e-10, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 617923038335091682}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000081026093, y: -0.0000014854785, z: 0.0000021606959}
+--- !u!1 &8402220782135037797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3772100958386361374}
+  m_Layer: 0
+  m_Name: Bip001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3772100958386361374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402220782135037797}
+  m_LocalRotation: {x: -0.5002199, y: 0.5410167, z: 0.49640912, w: 0.45897606}
+  m_LocalPosition: {x: 0.00019192699, y: 2.318146, z: 0.04441142}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 4905313124275344283}
+  - {fileID: 585986696175785261}
+  - {fileID: 5026609997574879020}
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -73.69008, y: 1.0072904, z: 87.613205}
+--- !u!1 &8951430834012481498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617923038335091682}
+  m_Layer: 0
+  m_Name: Bip001 R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &617923038335091682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951430834012481498}
+  m_LocalRotation: {x: 0.00035421868, y: 0.0028630788, z: -0.70337117, w: 0.7108169}
+  m_LocalPosition: {x: -0.48304835, y: 0.6191344, z: -0.00000010434519}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 2177582933698027834}
+  m_Father: {fileID: 6958942144254212467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -10.740126, y: -9.455998, z: -125.543465}
+--- !u!1 &8955568740710950538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390047371787493649}
+  m_Layer: 0
+  m_Name: Bip001 R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390047371787493649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955568740710950538}
+  m_LocalRotation: {x: -0.0018419224, y: 0.96528476, z: -0.1500857, w: -0.21376674}
+  m_LocalPosition: {x: 0.3743835, y: -0.0016839576, z: -0.74954516}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 2898274038928943941}
+  m_Father: {fileID: 9133898724227483795}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 20.552767, y: -164.07156, z: 2.679916}
+--- !u!1 &9169313134288003333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7638991581094912105}
+  m_Layer: 0
+  m_Name: Bip001 R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7638991581094912105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169313134288003333}
+  m_LocalRotation: {x: 0.60376215, y: 0.2133125, z: 0.7242224, w: -0.25587308}
+  m_LocalPosition: {x: 0.2932315, y: 0.14689068, z: -0.60702056}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7520535440052812532}
+  m_Father: {fileID: 9078099542329804698}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.34838563, y: 79.15529, z: -179.47813}
+--- !u!1 &9186905094156788942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5725826800832889115}
+  m_Layer: 0
+  m_Name: Bip001 L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5725826800832889115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9186905094156788942}
+  m_LocalRotation: {x: -0.00000048850893, y: -0.00000010852842, z: -0.7071071, w: 0.7071065}
+  m_LocalPosition: {x: -0.48304835, y: 0.61913437, z: 0.000000005200276}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 2424964164635938993}
+  m_Father: {fileID: 6608453922780833628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000029875186, y: 0.000031189313, z: -90.00002}

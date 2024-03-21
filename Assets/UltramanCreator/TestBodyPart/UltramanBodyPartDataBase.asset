@@ -47,6 +47,8 @@ MonoBehaviour:
     - RedKing_leg_R
     - RedKing_leg_L
     - BindHand
+    - BindHand1
+    - wing_R
     _keys:
     - FivekingRHand
     - FivekingLHand
@@ -59,6 +61,8 @@ MonoBehaviour:
     - RedKing_leg_R
     - RedKing_leg_L
     - BindHand
+    - BindHand1
+    - wing_R
     _values:
     - {fileID: 11400000, guid: 0d3c167b072f4ae44a769b255544917d, type: 2}
     - {fileID: 11400000, guid: 0e31840c0958629468c9fec5557ff00c, type: 2}
@@ -71,3 +75,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 61fa98954a44a5942903f1c70f3b6279, type: 2}
     - {fileID: 11400000, guid: e6186f02d5b43c94087df46bcd7d3ca3, type: 2}
     - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
+    - {fileID: 11400000, guid: 6d8b8cc4b4c30fc44a120363489bdc0e, type: 2}
+    - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}

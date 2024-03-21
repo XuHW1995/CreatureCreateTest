@@ -17,6 +17,8 @@ public class UltramanBodyPartController : BodyPartController
     public SkinnedMeshRenderer sr;
     [SerializeField]
     public EUltramanBodyPartType type = EUltramanBodyPartType.exchange;
+
+    public GameObject flipped;
     
     public void Start()
     {
@@ -87,6 +89,18 @@ public class UltramanBodyPartController : BodyPartController
         transform.SetParent(Dynamic.Transform);
         gameObject.SetLayerRecursively(LayerMask.NameToLayer("Ignore Raycast"), new List<string> {"Tools"});
         UltramanCreature.Instance.AllDynamicMountBonesSlotsShow(true);
+        
+        if (type == EUltramanBodyPartType.mount)
+        {
+            flipped = GameObject.Instantiate(this.gameObject, Dynamic.Transform);
+            flipped.transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+        
+        if (flipped)
+        {
+            flipped.transform.SetParent(Dynamic.Transform);
+            flipped.gameObject.SetLayerRecursively(LayerMask.NameToLayer("Ignore Raycast"), new List<string> {"Tools"});
+        }
     }
     
     public void MountParyDraging()
@@ -99,10 +113,33 @@ public class UltramanBodyPartController : BodyPartController
 
             transform.position = raycastHit.point;
             transform.rotation = Quaternion.LookRotation(raycastHit.normal);
+
+            //TODO 对称标记，构建对称面，计算对称点（现在的算法是基于挂载部位X严格处于X = 0处，，实际应该取挂载部件 的对称面
+            if (Mathf.Abs(transform.position.x) > 0.1f)
+            {
+                if (flipped)
+                {
+                    flipped.SetActive(true);
+                    flipped.transform.position =
+                        new Vector3(-transform.position.x, transform.position.y, transform.position.z);
+                    flipped.transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, -transform.rotation.eulerAngles.y, -transform.rotation.eulerAngles.z);
+                }
+            }
+            else
+            {
+                if (flipped)
+                {
+                    flipped.gameObject.SetActive(false);
+                }
+            }
         }
         else
         {
             Drag.Draggable = true;
+            if (flipped)
+            {
+                flipped.gameObject.SetActive(false);
+            }
         }
     }
     
@@ -117,12 +154,24 @@ public class UltramanBodyPartController : BodyPartController
          {
              transform.SetParent(raycastHit.collider.transform);
              transform.localPosition = Vector3.zero;
-             transform.rotation =   Quaternion.LookRotation(raycastHit.normal);
+             //transform.rotation =   Quaternion.LookRotation(raycastHit.normal);
              gameObject.SetLayerRecursively(LayerMask.NameToLayer("Body"), new List<string> {"Tools"});
+             
+             if (flipped)
+             {
+                 transform.localPosition = Vector3.zero;
+                 flipped.transform.SetParent(raycastHit.collider.transform);
+                 flipped.gameObject.SetLayerRecursively(LayerMask.NameToLayer("Body"), new List<string> {"Tools"});
+             }
          }
          else
          {
              Destroy(gameObject);
+             if (flipped)
+             {
+                Destroy(flipped);
+             }
+             
              Drag.Plane = new Plane(Vector3.right, Vector3.zero);
          }
         

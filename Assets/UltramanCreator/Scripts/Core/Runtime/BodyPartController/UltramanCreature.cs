@@ -86,7 +86,7 @@ namespace TestGon.BodyPartController
             foreach (Transform dynamicMountBonesSlot in dynamicMountBonesSlots)
             {
                 dynamicMountBonesSlot.gameObject.tag = "UTM_DMBL";
-                dynamicMountBonesSlot.gameObject.AddComponent<SphereCollider>().radius = 1;
+                dynamicMountBonesSlot.gameObject.AddComponent<SphereCollider>();
                 MeshRenderer mr = dynamicMountBonesSlot.gameObject.AddComponent<MeshRenderer>();
                 mr.sharedMaterial = new Material(Shader.Find("Standard"));
                 mr.enabled = false;
