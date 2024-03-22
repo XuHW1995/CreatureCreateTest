@@ -107,7 +107,7 @@ public class UltramanBodyPartController : BodyPartController
     {
         if (Physics.Raycast(
             RectTransformUtility.ScreenPointToRay(CreatureCreator.Instance.CameraOrbit.Camera, Input.mousePosition),
-            out RaycastHit raycastHit) && raycastHit.collider.CompareTag("UTM_DMBL"))
+            out RaycastHit raycastHit) && raycastHit.collider.CompareTag("UTM"))//raycastHit.collider.CompareTag("UTM_DMBL"))
         {
             Drag.Draggable = false;
 

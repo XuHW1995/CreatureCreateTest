@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18d895524e6a104bb6b59092628925b, type: 3}
+  m_Name: UltramanBodyPartDataBase
+  m_EditorClassIdentifier: 
+  Objects:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues:
+    - FivekingRHand
+    - FivekingLHand
+    - Fiveking_leg_R
+    - Fiveking_leg_L
+    - BlackKing_hand_R
+    - BlackKing_hand_L
+    - BlackKing_leg_R
+    - BlackKing_leg_L
+    - RedKing_leg_R
+    - RedKing_leg_L
+    - BindHand
+    - wing_R
+    _keys:
+    - FivekingRHand
+    - FivekingLHand
+    - Fiveking_leg_R
+    - Fiveking_leg_L
+    - BlackKing_hand_R
+    - BlackKing_hand_L
+    - BlackKing_leg_R
+    - BlackKing_leg_L
+    - RedKing_leg_R
+    - RedKing_leg_L
+    - BindHand
+    - wing_R
+    _values:
+    - {fileID: 11400000, guid: 0d3c167b072f4ae44a769b255544917d, type: 2}
+    - {fileID: 11400000, guid: 0e31840c0958629468c9fec5557ff00c, type: 2}
+    - {fileID: 11400000, guid: d9e3f811501c4924e8d69957efe1eebd, type: 2}
+    - {fileID: 11400000, guid: 273fd5a8496e56f4f95b826077980795, type: 2}
+    - {fileID: 11400000, guid: e9a09d04e3c60dc45abae54b641bd6fd, type: 2}
+    - {fileID: 11400000, guid: 479442cc01c22844a983be9bfa5b67a3, type: 2}
+    - {fileID: 11400000, guid: dce2af2829ddcdc4e982f95a18f4583b, type: 2}
+    - {fileID: 11400000, guid: 37922f2077e86c445813cc77de550297, type: 2}
+    - {fileID: 11400000, guid: 61fa98954a44a5942903f1c70f3b6279, type: 2}
+    - {fileID: 11400000, guid: e6186f02d5b43c94087df46bcd7d3ca3, type: 2}
+    - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
+    - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}
