@@ -36,6 +36,8 @@ MonoBehaviour:
     reqReferences: {fileID: 0}
     isExpanded: 1
     _keyValues:
+    - BlackKingBody
+    - GrigioBoneBody
     - FivekingRHand
     - FivekingLHand
     - Fiveking_leg_R
@@ -48,7 +50,10 @@ MonoBehaviour:
     - RedKing_leg_L
     - BindHand
     - wing_R
+    - TESTCHECKPOINT
     _keys:
+    - BlackKingBody
+    - GrigioBoneBody
     - FivekingRHand
     - FivekingLHand
     - Fiveking_leg_R
@@ -61,7 +66,10 @@ MonoBehaviour:
     - RedKing_leg_L
     - BindHand
     - wing_R
+    - TESTCHECKPOINT
     _values:
+    - {fileID: 11400000, guid: 1c4d130107eb7c140a0db3fe7a4e999d, type: 2}
+    - {fileID: 11400000, guid: 8d517fd772dd1874f88a8e17393c55b0, type: 2}
     - {fileID: 11400000, guid: 0d3c167b072f4ae44a769b255544917d, type: 2}
     - {fileID: 11400000, guid: 0e31840c0958629468c9fec5557ff00c, type: 2}
     - {fileID: 11400000, guid: d9e3f811501c4924e8d69957efe1eebd, type: 2}
@@ -74,3 +82,4 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6186f02d5b43c94087df46bcd7d3ca3, type: 2}
     - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
     - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}
+    - {fileID: 11400000, guid: 2df96118b82d77746b0027565f74f286, type: 2}

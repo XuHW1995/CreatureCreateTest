@@ -9,7 +9,7 @@ namespace DanielLochner.Assets.CreatureCreator
     public class BodyPartController : MonoBehaviour
     {
         #region Fields
-        [SerializeField] private BodyPart bodyPart;
+        [SerializeField] protected BodyPart bodyPart;
 
         [Header("Body Part")]
         [SerializeField] private Transform model;
@@ -42,6 +42,7 @@ namespace DanielLochner.Assets.CreatureCreator
         {
             hover.OnEnter.AddListener(delegate
             {
+                Debug.Log($"XHW {gameObject.name} hover.onenter ");
                 if (!Input.GetMouseButton(0))
                 {
                     CreatureCreator.Instance.CameraOrbit.Freeze();
@@ -49,6 +50,7 @@ namespace DanielLochner.Assets.CreatureCreator
             });
             hover.OnExit.AddListener(delegate
             {
+                Debug.Log($"XHW {gameObject.name} hover.OnExit ");
                 if (!Input.GetMouseButton(0))
                 {
                     CreatureCreator.Instance.CameraOrbit.Unfreeze();
@@ -57,7 +59,7 @@ namespace DanielLochner.Assets.CreatureCreator
 
             scroll.OnScrollUp.AddListener(delegate
             {
-                if (transform.localScale.x < bodyPart.MaxScale - bodyPart.ScaleIncrement)
+                if (transform.localScale.y < bodyPart.MaxScale - bodyPart.ScaleIncrement)
                 {
                     transform.localScale += Vector3.one * bodyPart.ScaleIncrement;
                     if (Flipped != null)
@@ -68,7 +70,7 @@ namespace DanielLochner.Assets.CreatureCreator
             });
             scroll.OnScrollDown.AddListener(delegate
             {
-                if (transform.localScale.x > bodyPart.MinScale + bodyPart.ScaleIncrement)
+                if (transform.localScale.y > bodyPart.MinScale + bodyPart.ScaleIncrement)
                 {
                     transform.localScale -= Vector3.one * bodyPart.ScaleIncrement;
                     if (Flipped != null)

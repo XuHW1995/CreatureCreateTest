@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Set
-  - UTM
-  - UTM_DMBL
+  - REPLACE_PART
   layers:
   - Default
   - TransparentFX

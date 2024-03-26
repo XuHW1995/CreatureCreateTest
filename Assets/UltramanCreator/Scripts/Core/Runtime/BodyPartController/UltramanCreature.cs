@@ -107,14 +107,5 @@ namespace TestGon.BodyPartController
                 // }));
             }
         }
-        
-        [SerializeField]
-        public Avatar avatar;
-        
-        [ContextMenu("DebugAvatar")]
-        public void DebugAvatar()
-        {
-            Debug.Log(avatar.humanDescription);
-        }
     }
 }

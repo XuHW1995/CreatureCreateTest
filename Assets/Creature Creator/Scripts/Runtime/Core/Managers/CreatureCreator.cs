@@ -151,7 +151,7 @@ namespace DanielLochner.Assets.CreatureCreator
                             bpc.Drag.Plane = plane;
                             if (bpc is UltramanBodyPartController)
                             {
-                                ((UltramanBodyPartController)bpc).InitBPC();
+                                ((UltramanBodyPartController)bpc).Init();
                             }
                             else
                             {

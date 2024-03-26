@@ -53,6 +53,9 @@ namespace DanielLochner.Assets.CreatureCreator
             Initialize();
         }
 
+        [SerializeField]
+        public bool CloseBody = false;
+        
         private void Initialize()
         {
             #region Creature
@@ -85,9 +88,15 @@ namespace DanielLochner.Assets.CreatureCreator
 
             meshCollider = gameObject.AddComponent<MeshCollider>();
             mesh.name = "Body";
-            
-            //关闭原本的body
-            model.SetActive(false);
+
+            if (CloseBody)
+            {
+                //关闭原本的body
+                model.SetActive(false);
+                meshCollider.enabled = false;
+                root.gameObject.SetActive(false);
+            }
+
             #endregion
 
             #region Tools

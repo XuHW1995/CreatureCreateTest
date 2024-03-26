@@ -288,9 +288,11 @@ GameObject:
   - component: {fileID: 7467606817448629515}
   - component: {fileID: 807276374}
   - component: {fileID: 807276388}
+  - component: {fileID: 1135684075}
+  - component: {fileID: 1135684069}
   m_Layer: 11
   m_Name: LegRight
-  m_TagString: UTM
+  m_TagString: REPLACE_PART
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -868,7 +870,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 0
   m_Mesh: {fileID: -6281523205015600045, guid: f301e30cb49808443bab055199672338, type: 3}
 --- !u!114 &807276374
@@ -905,6 +907,32 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1135684075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &1135684069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376123467874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 5
 --- !u!1 &1999698376282338387
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,9 +947,11 @@ GameObject:
   - component: {fileID: 807276375}
   - component: {fileID: 807276387}
   - component: {fileID: 807276391}
+  - component: {fileID: 1289689836}
+  - component: {fileID: 1289689830}
   m_Layer: 11
   m_Name: HandLeft
-  m_TagString: UTM
+  m_TagString: REPLACE_PART
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1504,7 +1534,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 0
   m_Mesh: {fileID: 4020718239812950295, guid: 6f87bfbe0bf9a7f4ea0a98b73bc21808, type: 3}
 --- !u!114 &807276387
@@ -1541,6 +1571,32 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1289689836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &1289689830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376282338387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 2
 --- !u!1 &1999698376805134394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,9 +1611,11 @@ GameObject:
   - component: {fileID: 8502921549008955035}
   - component: {fileID: 807276385}
   - component: {fileID: 807276390}
+  - component: {fileID: 1883641683}
+  - component: {fileID: 1883641677}
   m_Layer: 11
   m_Name: HandRight
-  m_TagString: UTM
+  m_TagString: REPLACE_PART
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2140,7 +2198,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 0
   m_Mesh: {fileID: 342329067880986933, guid: 961511d4f49fa4b429098231901260e5, type: 3}
 --- !u!114 &807276385
@@ -2177,6 +2235,32 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1883641683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &1883641677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698376805134394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 3
 --- !u!1 &1999698377893255810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,9 +2275,11 @@ GameObject:
   - component: {fileID: 9038926462820782897}
   - component: {fileID: 9069988546179001300}
   - component: {fileID: 807276389}
+  - component: {fileID: 1812058205}
+  - component: {fileID: 1812058199}
   m_Layer: 11
   m_Name: LegLeft
-  m_TagString: UTM
+  m_TagString: REPLACE_PART
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2779,7 +2865,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 0
   m_Mesh: {fileID: 7836327355448512683, guid: f301e30cb49808443bab055199672338, type: 3}
 --- !u!114 &9069988546179001300
@@ -2816,6 +2902,32 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &1812058205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &1812058199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999698377893255810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 4
 --- !u!1 &2092933928877500229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,9 +3378,11 @@ GameObject:
   - component: {fileID: 1999698377795230192}
   - component: {fileID: 244655048}
   - component: {fileID: 244655047}
-  m_Layer: 0
+  - component: {fileID: 1783716176}
+  - component: {fileID: 1783716172}
+  m_Layer: 11
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: REPLACE_PART
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3851,8 +3965,8 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-  aBoneRootTransform: {fileID: 0}
-  aSR: {fileID: 0}
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 2027390831650964899}
   bSR: {fileID: 0}
   a: {fileID: 0}
   b: {fileID: 0}
@@ -3867,8 +3981,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
+  m_Convex: 0
+  m_CookingOptions: 0
   m_Mesh: {fileID: 7459652162776261291, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
 --- !u!114 &244655047
 MonoBehaviour:
@@ -3886,6 +4000,32 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1783716176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &1783716172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5692548486467723540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 1
 --- !u!1 &6618433608955069509
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,7 +4162,7 @@ GameObject:
   - component: {fileID: 1999698376750281519}
   - component: {fileID: 4477140779761372222}
   m_Layer: 0
-  m_Name: Body
+  m_Name: UltramanCreature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4037,7 +4177,7 @@ Transform:
   m_GameObject: {fileID: 7557521769920512096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3772100958386361374}
   - {fileID: 5110747979926023539}
@@ -4089,14 +4229,8 @@ MonoBehaviour:
   - {fileID: 5110747979926023539}
   selectBodyPart: {fileID: 0}
   primaryColourPicker: {fileID: 0}
-  dynamicMountBonesSlots:
-  - {fileID: 5048619388522849748}
-  - {fileID: 4750752440107411530}
-  - {fileID: 6100751506352341740}
-  - {fileID: 4750752440107411530}
-  - {fileID: 4750752440107411530}
+  dynamicMountBonesSlots: []
   dynamicMountBoneMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  avatar: {fileID: 9000000, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
 --- !u!1 &7677663337957373082
 GameObject:
   m_ObjectHideFlags: 0

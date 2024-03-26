@@ -2,6 +2,17 @@
 
 namespace DanielLochner.Assets.CreatureCreator
 {
+    public enum BodyPartTypeEnum
+    {
+        UnDefine,
+        ReplaceBody,
+        ReplaceHandL,
+        ReplaceHandR,
+        ReplaceLegL,
+        ReplaceLegR,
+        Mounted,
+    }
+    
     public abstract class BodyPart : Item
     {
         #region Fields
@@ -15,6 +26,7 @@ namespace DanielLochner.Assets.CreatureCreator
         [SerializeField] private float minScale = 0.25f;
         [SerializeField] private float maxScale = 2.5f;
         [SerializeField] private float scaleIncrement = 0.1f;
+        [SerializeField] private BodyPartTypeEnum bodyPartType = BodyPartTypeEnum.UnDefine;
         #endregion
 
         #region Properties
@@ -27,6 +39,10 @@ namespace DanielLochner.Assets.CreatureCreator
         public float MinScale { get { return minScale; } }
         public float MaxScale { get { return maxScale; } }
         public float ScaleIncrement { get { return scaleIncrement; } }
+        public BodyPartTypeEnum BodyPartType
+        {
+            get { return bodyPartType; }
+        }
         #endregion
     }
 }
