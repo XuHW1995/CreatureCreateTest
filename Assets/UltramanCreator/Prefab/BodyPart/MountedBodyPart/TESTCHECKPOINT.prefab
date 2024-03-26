@@ -122,6 +122,7 @@ MonoBehaviour:
   rotatePrefab: {fileID: 0}
   sr: {fileID: 0}
   flipped: {fileID: 0}
+  flippedable: 1
 --- !u!1 &7555203922624898348
 GameObject:
   m_ObjectHideFlags: 0

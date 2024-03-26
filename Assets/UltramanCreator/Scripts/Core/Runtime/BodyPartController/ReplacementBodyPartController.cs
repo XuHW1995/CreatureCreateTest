@@ -24,7 +24,7 @@ namespace TestGon.BodyPartController
             
             CreatureCreator.Instance.CameraOrbit.Freeze();
             transform.SetParent(Dynamic.Transform);
-            gameObject.SetLayerRecursively(LayerMask.NameToLayer("Ignore Raycast"), new List<string> {"Tools"});
+            gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
         }
         
         public override void OnDraging()
@@ -62,9 +62,8 @@ namespace TestGon.BodyPartController
                 }
             }
             
-            Drag.Plane = new Plane(Vector3.right, Vector3.zero);
             Destroy(gameObject);
-            gameObject.SetLayerRecursively(LayerManager.BODY_LAYER, new List<string> {"Tools"});
+            gameObject.SetLayerRecursively(LayerManager.BODY_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
         }
     }
 }

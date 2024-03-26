@@ -216,6 +216,7 @@ MonoBehaviour:
   rotatePrefab: {fileID: 0}
   sr: {fileID: 0}
   flipped: {fileID: 0}
+  flippedable: 1
 --- !u!65 &2076179763838074702
 BoxCollider:
   m_ObjectHideFlags: 0
