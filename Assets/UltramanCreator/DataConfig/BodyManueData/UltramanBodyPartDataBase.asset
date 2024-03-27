@@ -36,8 +36,11 @@ MonoBehaviour:
     reqReferences: {fileID: 0}
     isExpanded: 1
     _keyValues:
-    - BlackKingBody
-    - GrigioBoneBody
+    - BlackKingHead
+    - RedKing_Head
+    - GrigioBoneHead
+    - GrigioBoneBodyNoHead
+    - BlackKingBodyNoHead
     - FivekingRHand
     - FivekingLHand
     - Fiveking_leg_R
@@ -51,9 +54,13 @@ MonoBehaviour:
     - BindHand
     - wing_R
     - TESTCHECKPOINT
+    - wing_R_db
     _keys:
-    - BlackKingBody
-    - GrigioBoneBody
+    - BlackKingHead
+    - RedKing_Head
+    - GrigioBoneHead
+    - GrigioBoneBodyNoHead
+    - BlackKingBodyNoHead
     - FivekingRHand
     - FivekingLHand
     - Fiveking_leg_R
@@ -67,9 +74,13 @@ MonoBehaviour:
     - BindHand
     - wing_R
     - TESTCHECKPOINT
+    - wing_R_db
     _values:
-    - {fileID: 11400000, guid: 1c4d130107eb7c140a0db3fe7a4e999d, type: 2}
-    - {fileID: 11400000, guid: 8d517fd772dd1874f88a8e17393c55b0, type: 2}
+    - {fileID: 11400000, guid: 31c946bcb2fdf45438ceede2aff22461, type: 2}
+    - {fileID: 11400000, guid: c89b633a82cd9904bacdc8bc3fa3ef91, type: 2}
+    - {fileID: 11400000, guid: 8a9579c78b3de2a418f570b521276223, type: 2}
+    - {fileID: 11400000, guid: 4215f913beb3fd747a2a06415dbbeb0e, type: 2}
+    - {fileID: 11400000, guid: e78d482597b68c64d88dcbca8c54cba0, type: 2}
     - {fileID: 11400000, guid: 0d3c167b072f4ae44a769b255544917d, type: 2}
     - {fileID: 11400000, guid: 0e31840c0958629468c9fec5557ff00c, type: 2}
     - {fileID: 11400000, guid: d9e3f811501c4924e8d69957efe1eebd, type: 2}
@@ -83,3 +94,4 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
     - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}
     - {fileID: 11400000, guid: 2df96118b82d77746b0027565f74f286, type: 2}
+    - {fileID: 11400000, guid: f4d1e0fbbe2ca8846b98d2b98c3b51c4, type: 2}

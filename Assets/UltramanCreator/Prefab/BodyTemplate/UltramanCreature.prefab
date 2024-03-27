@@ -309,7 +309,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6826031908874498675}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1999698376123467879
 SkinnedMeshRenderer:
@@ -932,7 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BodyPartTypeEnum: 5
+  BodyPartTypeEnum: 6
 --- !u!1 &1999698376282338387
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6826031908874498675}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1999698376282338384
 SkinnedMeshRenderer:
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BodyPartTypeEnum: 2
+  BodyPartTypeEnum: 3
 --- !u!1 &1999698376805134394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1632,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6826031908874498675}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1999698376805134399
 SkinnedMeshRenderer:
@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BodyPartTypeEnum: 3
+  BodyPartTypeEnum: 4
 --- !u!1 &1999698377893255810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,7 +2296,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6826031908874498675}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1999698377893255815
 SkinnedMeshRenderer:
@@ -2927,7 +2927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BodyPartTypeEnum: 4
+  BodyPartTypeEnum: 5
 --- !u!1 &2092933928877500229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,6 +3141,387 @@ Transform:
   m_Father: {fileID: 3543868482746119836}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.000049738446, y: 179.99992, z: -59.05209}
+--- !u!1 &3463832236855797202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5571517984364836529}
+  - component: {fileID: 5620114729134484553}
+  - component: {fileID: 1594139637409011777}
+  - component: {fileID: 7070890784950227869}
+  - component: {fileID: 4671174734421684391}
+  - component: {fileID: 7814419859086378269}
+  - component: {fileID: 5248446024741000879}
+  m_Layer: 11
+  m_Name: Head
+  m_TagString: REPLACE_PART
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5571517984364836529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6826031908874498675}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5620114729134484553
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8622231856638578679, guid: cd4261b4084bd4645988b58f67eaabd0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 653563868012574710, guid: cd4261b4084bd4645988b58f67eaabd0, type: 3}
+  m_Bones:
+  - {fileID: 8296158207177516303}
+  - {fileID: 3543868482746119836}
+  - {fileID: 9078099542329804698}
+  - {fileID: 8470080609963697297}
+  - {fileID: 391444307263425082}
+  - {fileID: 9133898724227483795}
+  - {fileID: 3427142517736764333}
+  - {fileID: 690308884935699729}
+  - {fileID: 7520535440052812532}
+  - {fileID: 585986696175785261}
+  - {fileID: 3522913160566783119}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 585986696175785261}
+  m_AABB:
+    m_Center: {x: -0.8367436, y: -1.696337, z: -0.000051617622}
+    m_Extent: {x: 3.446739, y: 3.6951673, z: 1.3626114}
+  m_DirtyAABB: 0
+--- !u!114 &1594139637409011777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27461428478584cbbf9969425e9842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneInfos:
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
+    bindPose:
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone001
+    boneTransform: {fileID: 391444307263425082}
+    bindPose:
+      e00: -0.000000063269425
+      e01: 0.83803004
+      e02: 0.5456242
+      e03: -2.2035365
+      e10: 0.000000053118388
+      e11: -0.54562414
+      e12: 0.8380299
+      e13: -5.184949
+      e20: 1.0000001
+      e21: 0.000000082004405
+      e22: -0.0000000099934665
+      e23: 0.00000009462565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Spine
+    boneTransform: {fileID: 9133898724227483795}
+    bindPose:
+      e00: 0.00000004946972
+      e01: 0.085869834
+      e02: -0.99630624
+      e03: 3.0205119
+      e10: 0.0000011707301
+      e11: -0.9963064
+      e12: -0.08586984
+      e13: 0.01971077
+      e20: -1.0000001
+      e21: -0.000001162158
+      e22: -0.00000014981724
+      e23: 0.00019221392
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone003
+    boneTransform: {fileID: 690308884935699729}
+    bindPose:
+      e00: 0.93433976
+      e01: 0.35576835
+      e02: -0.020922624
+      e03: 0.6201139
+      e10: 0.022387529
+      e11: -0.00000050226146
+      e12: 0.99974936
+      e13: -6.00519
+      e20: -0.35567906
+      e21: 0.934574
+      e22: 0.007965243
+      e23: 1.0153977
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 R UpperArm
+    boneTransform: {fileID: 7520535440052812532}
+    bindPose:
+      e00: -0.69401145
+      e01: -0.059944317
+      e02: 0.71746415
+      e03: -2.806611
+      e10: -0.023808239
+      e11: 0.9978937
+      e12: 0.06034429
+      e13: -0.06885305
+      e20: -0.7195702
+      e21: 0.024798082
+      e22: -0.6939768
+      e23: 3.5951276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Pelvis
+    boneTransform: {fileID: 585986696175785261}
+    bindPose:
+      e00: 6.123234e-17
+      e01: -6.123234e-17
+      e02: -1
+      e03: 2.63605
+      e10: -0.0000029961288
+      e11: -1
+      e12: 6.123215e-17
+      e13: -0.24035603
+      e20: -1
+      e21: 0.0000029961288
+      e22: -6.123253e-17
+      e23: 0.00019276037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bone002
+    boneTransform: {fileID: 3522913160566783119}
+    bindPose:
+      e00: -0.9335031
+      e01: 0.35795885
+      e02: 0.020904243
+      e03: 0.37128258
+      e10: 0.02238757
+      e11: -0.00000037370089
+      e12: 0.99974924
+      e13: -6.008941
+      e20: 0.35786918
+      e21: 0.9337373
+      e22: -0.008013481
+      e23: 1.1102462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  aBoneRootTransform: {fileID: 3772100958386361374}
+  aSR: {fileID: 5620114729134484553}
+  bSR: {fileID: 0}
+  a: {fileID: 0}
+  b: {fileID: 0}
+--- !u!64 &7070890784950227869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 0
+  m_Mesh: {fileID: 7459652162776261291, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+--- !u!114 &4671174734421684391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7814419859086378269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f5336c0674e4bbcccc1d0d607ac4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateIntervalsFrameCount: 8
+--- !u!114 &5248446024741000879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463832236855797202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyPartTypeEnum: 1
 --- !u!1 &3591648068234032188
 GameObject:
   m_ObjectHideFlags: 0
@@ -3399,7 +3780,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6826031908874498675}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2027390831650964899
 SkinnedMeshRenderer:
@@ -3419,7 +3800,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8622231856638578679, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+  - {fileID: 8622231856638578679, guid: 25aae813982bac644be281ee0cf6420a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3444,30 +3825,27 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 7459652162776261291, guid: e23fb3bcfb9ba924aa767347fc46bb48, type: 3}
+  m_Mesh: {fileID: 7459652162776261291, guid: 25aae813982bac644be281ee0cf6420a, type: 3}
   m_Bones:
-  - {fileID: 8296158207177516303}
-  - {fileID: 3543868482746119836}
-  - {fileID: 9078099542329804698}
-  - {fileID: 8470080609963697297}
-  - {fileID: 391444307263425082}
   - {fileID: 9133898724227483795}
-  - {fileID: 3427142517736764333}
-  - {fileID: 690308884935699729}
+  - {fileID: 8296158207177516303}
   - {fileID: 4390047371787493649}
   - {fileID: 6100751506352341740}
+  - {fileID: 3427142517736764333}
   - {fileID: 4644059493802350510}
   - {fileID: 585986696175785261}
   - {fileID: 711805871481615036}
   - {fileID: 5026609997574879020}
+  - {fileID: 9078099542329804698}
   - {fileID: 7520535440052812532}
   - {fileID: 2206294277364211197}
   - {fileID: 2358166404984781786}
   - {fileID: 1741218202500103168}
+  - {fileID: 8470080609963697297}
+  - {fileID: 3543868482746119836}
   - {fileID: 6608453922780833628}
   - {fileID: 2898274038928943941}
   - {fileID: 6476854333779507618}
-  - {fileID: 3522913160566783119}
   - {fileID: 4358313740536691013}
   - {fileID: 6958942144254212467}
   - {fileID: 7477947349631623863}
@@ -3490,101 +3868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boneInfos:
-  - boneName: Bip001 Spine1
-    boneTransform: {fileID: 8296158207177516303}
-    bindPose:
-      e00: 0.00000035927766
-      e01: 0.12390405
-      e02: -0.9922942
-      e03: 3.8025208
-      e10: 0.0000011963272
-      e11: -0.9922943
-      e12: -0.12390405
-      e13: 0.16588812
-      e20: -1
-      e21: -0.0000011425927
-      e22: -0.000000504739
-      e23: 0.00019356786
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bip001 Head
-    boneTransform: {fileID: 3543868482746119836}
-    bindPose:
-      e00: 0.0000006726288
-      e01: 0.41956395
-      e02: -0.90772575
-      e03: 5.4362144
-      e10: 0.0000012998618
-      e11: -0.9077258
-      e12: -0.41956398
-      e13: 1.5395038
-      e20: -1
-      e21: -0.0000008977073
-      e22: -0.0000011559379
-      e23: 0.00019648435
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bip001 Neck
-    boneTransform: {fileID: 9078099542329804698}
-    bindPose:
-      e00: 0.0000008481835
-      e01: 0.40636048
-      e02: -0.91371286
-      e03: 4.5321655
-      e10: 0.0000013806224
-      e11: -0.9137129
-      e12: -0.40636054
-      e13: 1.6888536
-      e20: -1
-      e21: -0.0000009168244
-      e22: -0.0000013360268
-      e23: 0.00019784286
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bip001 Neck1
-    boneTransform: {fileID: 8470080609963697297}
-    bindPose:
-      e00: 0.0000010106099
-      e01: 0.44626883
-      e02: -0.89489883
-      e03: 4.919484
-      e10: 0.0000014326164
-      e11: -0.89489883
-      e12: -0.44626892
-      e13: 1.9080181
-      e20: -1
-      e21: -0.00000083104334
-      e22: -0.0000015437261
-      e23: 0.00019897762
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bone001
-    boneTransform: {fileID: 391444307263425082}
-    bindPose:
-      e00: -0.000000063269425
-      e01: 0.83803004
-      e02: 0.5456242
-      e03: -2.2035365
-      e10: 0.000000053118388
-      e11: -0.54562414
-      e12: 0.8380299
-      e13: -5.184949
-      e20: 1.0000001
-      e21: 0.000000082004405
-      e22: -0.0000000099934665
-      e23: 0.00000009462565
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   - boneName: Bip001 Spine
     boneTransform: {fileID: 9133898724227483795}
     bindPose:
@@ -3604,40 +3887,21 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-  - boneName: Bip001 L UpperArm
-    boneTransform: {fileID: 3427142517736764333}
+  - boneName: Bip001 Spine1
+    boneTransform: {fileID: 8296158207177516303}
     bindPose:
-      e00: 0.69401157
-      e01: -0.05994683
-      e02: 0.71746385
-      e03: -2.8068774
-      e10: 0.023811687
-      e11: 0.9978935
-      e12: 0.060344465
-      e13: -0.06886287
-      e20: -0.71957016
-      e21: -0.02479574
-      e22: 0.6939771
-      e23: -3.594852
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bone003
-    boneTransform: {fileID: 690308884935699729}
-    bindPose:
-      e00: 0.93433976
-      e01: 0.35576835
-      e02: -0.020922624
-      e03: 0.6201139
-      e10: 0.022387529
-      e11: -0.00000050226146
-      e12: 0.99974936
-      e13: -6.00519
-      e20: -0.35567906
-      e21: 0.934574
-      e22: 0.007965243
-      e23: 1.0153977
+      e00: 0.00000035927766
+      e01: 0.12390405
+      e02: -0.9922942
+      e03: 3.8025208
+      e10: 0.0000011963272
+      e11: -0.9922943
+      e12: -0.12390405
+      e13: 0.16588812
+      e20: -1
+      e21: -0.0000011425927
+      e22: -0.000000504739
+      e23: 0.00019356786
       e30: 0
       e31: 0
       e32: 0
@@ -3676,6 +3940,25 @@ MonoBehaviour:
       e21: -0.0054654446
       e22: -0.18554936
       e23: 1.2238616
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 L UpperArm
+    boneTransform: {fileID: 3427142517736764333}
+    bindPose:
+      e00: 0.69401157
+      e01: -0.05994683
+      e02: 0.71746385
+      e03: -2.8068774
+      e10: 0.023811687
+      e11: 0.9978935
+      e12: 0.060344465
+      e13: -0.06886287
+      e20: -0.71957016
+      e21: -0.02479574
+      e22: 0.6939771
+      e23: -3.594852
       e30: 0
       e31: 0
       e32: 0
@@ -3756,6 +4039,25 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+  - boneName: Bip001 Neck
+    boneTransform: {fileID: 9078099542329804698}
+    bindPose:
+      e00: 0.0000008481835
+      e01: 0.40636048
+      e02: -0.91371286
+      e03: 4.5321655
+      e10: 0.0000013806224
+      e11: -0.9137129
+      e12: -0.40636054
+      e13: 1.6888536
+      e20: -1
+      e21: -0.0000009168244
+      e22: -0.0000013360268
+      e23: 0.00019784286
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   - boneName: Bip001 R UpperArm
     boneTransform: {fileID: 7520535440052812532}
     bindPose:
@@ -3778,17 +4080,17 @@ MonoBehaviour:
   - boneName: Bip001 Xtra0102
     boneTransform: {fileID: 2206294277364211197}
     bindPose:
-      e00: -0.0000013851472
-      e01: -0.88854206
-      e02: 0.458795
-      e03: 0.6921182
+      e00: -0.0000013851475
+      e01: -0.888542
+      e02: 0.45879492
+      e03: 0.69211817
       e10: 0.0000035142407
-      e11: 0.45879492
-      e12: 0.88854206
+      e11: 0.4587949
+      e12: 0.8885419
       e13: -1.7398679
       e20: -1
-      e21: 0.000002843078
-      e22: 0.0000024870526
+      e21: 0.0000028430777
+      e22: 0.0000024870524
       e23: 0.00018705936
       e30: 0
       e31: 0
@@ -3799,15 +4101,15 @@ MonoBehaviour:
     bindPose:
       e00: -0.0000016230974
       e01: -0.9847901
-      e02: 0.17374802
-      e03: 2.3532686
-      e10: 0.0000030652814
-      e11: 0.17374799
-      e12: 0.9847901
-      e13: -1.0882976
+      e02: 0.173748
+      e03: 2.3532684
+      e10: 0.000003065281
+      e11: 0.17374797
+      e12: 0.98478997
+      e13: -1.0882975
       e20: -1
-      e21: 0.0000021309968
-      e22: 0.000002736649
+      e21: 0.0000021309966
+      e22: 0.0000027366489
       e23: 0.00018868032
       e30: 0
       e31: 0
@@ -3816,18 +4118,56 @@ MonoBehaviour:
   - boneName: Bip001 Xtra0104
     boneTransform: {fileID: 1741218202500103168}
     bindPose:
-      e00: -0.0000016594873
+      e00: -0.0000016594875
       e01: -0.9998045
       e02: 0.019776745
-      e03: 3.6385307
-      e10: 0.0000027448925
+      e03: 3.638531
+      e10: 0.0000027448928
       e11: 0.019776745
       e12: 0.9998044
       e13: -0.5324379
-      e20: -1
-      e21: 0.0000017134482
+      e20: -1.0000001
+      e21: 0.000001713448
       e22: 0.0000027115368
       e23: 0.00019021858
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Neck1
+    boneTransform: {fileID: 8470080609963697297}
+    bindPose:
+      e00: 0.0000010106099
+      e01: 0.44626883
+      e02: -0.89489883
+      e03: 4.919484
+      e10: 0.0000014326164
+      e11: -0.89489883
+      e12: -0.44626892
+      e13: 1.9080181
+      e20: -1
+      e21: -0.00000083104334
+      e22: -0.0000015437261
+      e23: 0.00019897762
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - boneName: Bip001 Head
+    boneTransform: {fileID: 3543868482746119836}
+    bindPose:
+      e00: 0.0000006726288
+      e01: 0.41956395
+      e02: -0.90772575
+      e03: 5.4362144
+      e10: 0.0000012998618
+      e11: -0.9077258
+      e12: -0.41956398
+      e13: 1.5395038
+      e20: -1
+      e21: -0.0000008977073
+      e22: -0.0000011559379
+      e23: 0.00019648435
       e30: 0
       e31: 0
       e32: 0
@@ -3885,25 +4225,6 @@ MonoBehaviour:
       e21: -0.042305823
       e22: -0.09022438
       e23: -1.0001081
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  - boneName: Bone002
-    boneTransform: {fileID: 3522913160566783119}
-    bindPose:
-      e00: -0.9335031
-      e01: 0.35795885
-      e02: 0.020904243
-      e03: 0.37128258
-      e10: 0.02238757
-      e11: -0.00000037370089
-      e12: 0.99974924
-      e13: -6.008941
-      e20: 0.35786918
-      e21: 0.9337373
-      e22: -0.008013481
-      e23: 1.1102462
       e30: 0
       e31: 0
       e32: 0
@@ -4025,7 +4346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00854e1ffee149a3a1f4603af6ac9e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BodyPartTypeEnum: 1
+  BodyPartTypeEnum: 2
 --- !u!1 &6618433608955069509
 GameObject:
   m_ObjectHideFlags: 0
@@ -4180,6 +4501,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3772100958386361374}
+  - {fileID: 5571517984364836529}
   - {fileID: 5110747979926023539}
   - {fileID: 1999698376282338386}
   - {fileID: 1999698376805134393}

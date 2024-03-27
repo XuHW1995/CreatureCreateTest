@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b223a925ae1bc484aaf867fb9bd9286d, type: 3}
+  m_Name: GrigioBoneBodyNoHead
+  m_EditorClassIdentifier: 
+  description: GrigioBoneBodyNoHead
+  icon: {fileID: 21300000, guid: 047eecc8018226a45b24c9f411898497, type: 3}
+  prefab: {fileID: 1067900966280993839, guid: 71bf51cad8ee16a4699f560b11591b42, type: 3}
+  price: 0
+  complexity: 0
+  health: 0
+  attributes: []
+  transformations: -1
+  minScale: 0.25
+  maxScale: 2.5
+  scaleIncrement: 0.1
+  bodyPartType: 2

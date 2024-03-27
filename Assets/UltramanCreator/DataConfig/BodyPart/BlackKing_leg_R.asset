@@ -23,4 +23,4 @@ MonoBehaviour:
   minScale: 0.25
   maxScale: 2.5
   scaleIncrement: 0.1
-  bodyPartType: 5
+  bodyPartType: 6

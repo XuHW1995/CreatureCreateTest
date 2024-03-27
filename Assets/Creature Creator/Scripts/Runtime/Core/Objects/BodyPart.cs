@@ -5,6 +5,7 @@ namespace DanielLochner.Assets.CreatureCreator
     public enum BodyPartTypeEnum
     {
         UnDefine,
+        ReplaceHead,
         ReplaceBody,
         ReplaceHandL,
         ReplaceHandR,
