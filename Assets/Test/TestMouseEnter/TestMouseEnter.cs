@@ -24,10 +24,33 @@ public class TestMouseEnter : MonoBehaviour
     {
         
     }
+
+    public Vector3 checkpoint = Vector3.zero;
+    public float planeDis;
+    public void checkFlipped()
+    {
+        Plane a = new Plane(Vector3.up, planeDis);
+        Ray checkRay = new Ray(new Vector3(0, 100, 0), Vector3.down);
+        
+        Vector3 aM = GetRayMeetpointWithPlane(checkRay, a);
+        //Debug.Log($"am = {aM}");
+        DrawMeetingPoint(Color.red, aM);
+
+        
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(checkpoint, 0.5f);
+        
+        Vector3 flippedPoint = MathHelper.GetFlippedPointWithPlane(checkpoint, a);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawSphere(flippedPoint, 0.5f);
+    }
     
     //[ContextMenu("测试相交点")]
     public void OnDrawGizmos()
     {
+        checkFlipped();
+        return;
+        
         Plane a = new Plane(Vector3.up, -1);
         Plane b = new Plane(Vector3.down, -2);
         Plane c = new Plane(Vector3.up, -3);

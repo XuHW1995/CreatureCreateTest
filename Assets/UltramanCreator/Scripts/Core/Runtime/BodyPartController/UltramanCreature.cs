@@ -26,14 +26,31 @@ namespace TestGon.BodyPartController
         public Animator animator;
         [SerializeField]
         public Transform[] bodyPartsTransforms;
-        
+
+        //对称平面
+        private Plane flippedPlane;
+        public Plane FlippedPlane
+        {
+            get
+            {
+                return flippedPlane;
+            }
+        }
         public void Start()
         {
             _instance = this;
             InitBodyPartClick();
             InitDynamicMountBones();
+
+            flippedPlane = new Plane(this.transform.right, this.transform.position);
         }
 
+        [ContextMenu("ChangeflippedPlane")]
+        public void ChangeflippedPlane()
+        {
+            flippedPlane = new Plane(this.transform.right, this.transform.position);
+        }
+        
         public void DebugTestAnimation(string animationName)
         {
             animator.speed = 1;

@@ -39,6 +39,7 @@ namespace TestGon.BodyPartController
                 flipped.Drag.OnRelease.AddListener(OnDragRelease);
                 //flipped.Drag.OnDrag.AddListener(OnDraging);
                 flipped.Drag.OnDrag.AddListener(OnFlippedDrag);
+                flipped.Model.localScale = new Vector3(-Model.localScale.x, Model.localScale.y, Model.localScale.z);
             }
         }
         
@@ -59,7 +60,6 @@ namespace TestGon.BodyPartController
             if (canFlipped)
             {
                 flipped.transform.SetParent(Dynamic.Transform);
-                flipped.transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
                 flipped.gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
             }
         }
@@ -80,12 +80,16 @@ namespace TestGon.BodyPartController
                 transform.SetPositionAndRotation(raycastHit.point, Quaternion.LookRotation(raycastHit.normal));
                 if (canFlipped)
                 {
-                    //TODO 对称标记，构建对称面，计算对称点（现在的算法是基于挂载部位X严格处于X = 0处，，实际应该取挂载部件 的对称面
-                    if (Mathf.Abs(transform.position.x) > 0.1f)
+                    //接触点不在对称平面上则显示flipped
+                    if (Mathf.Abs(UltramanCreature.Instance.FlippedPlane.GetDistanceToPoint(raycastHit.point)) > 0.01f)
                     {
                         flipped.gameObject.SetActive(true);
-                        flipped.transform.position = new Vector3(-transform.position.x, transform.position.y, transform.position.z);
-                        flipped.transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, -transform.rotation.eulerAngles.y, -transform.rotation.eulerAngles.z);
+                        Vector3 flippedPos = MathHelper.GetFlippedPointWithPlane(raycastHit.point, UltramanCreature.Instance.FlippedPlane);
+                        flipped.transform.position = flippedPos;
+
+                        Vector3 flippedForward = MathHelper.GetFlippedVectorWithPlane(transform.forward, UltramanCreature.Instance.FlippedPlane);
+                        
+                        flipped.transform.rotation = Quaternion.LookRotation(flippedForward);
                     }
                     else
                     {
@@ -105,7 +109,7 @@ namespace TestGon.BodyPartController
 
         public void OnFlippedDrag()
         {
-            //闭包内flipped持有的是  clone， gameobject还是源对象
+            //闭包内flipped持有的是clone,也就是反转对象， gameobject还是源对象
             Debug.Log($"XHW  OnFlippedDrag gameobject = {gameObject.name}, flipped = {flipped.name}");
             Ray checkRay = RectTransformUtility.ScreenPointToRay(CreatureCreator.Instance.CameraOrbit.Camera, Input.mousePosition);
         
@@ -117,12 +121,16 @@ namespace TestGon.BodyPartController
                 
                 if (canFlipped)
                 {
-                    //TODO 对称标记，构建对称面，计算对称点（现在的算法是基于挂载部位X严格处于X = 0处，，实际应该取挂载部件 的对称面
-                    if (Mathf.Abs(flipped.transform.position.x) > 0.1f)
+                    //接触点不在对称平面上则显示flipped
+                    if (Mathf.Abs(UltramanCreature.Instance.FlippedPlane.GetDistanceToPoint(raycastHit.point)) > 0.01f)
                     {
                         gameObject.SetActive(true);
-                        transform.position = new Vector3(-flipped.transform.position.x, flipped.transform.position.y, flipped.transform.position.z);
-                        transform.rotation = Quaternion.Euler(flipped.transform.rotation.eulerAngles.x, -flipped.transform.rotation.eulerAngles.y, -flipped.transform.rotation.eulerAngles.z);
+                        Vector3 flippedPos = MathHelper.GetFlippedPointWithPlane(raycastHit.point, UltramanCreature.Instance.FlippedPlane);
+                        transform.position = flippedPos;
+                        
+                        //Vector3 flippedForward = MathHelper.GetFlippedPointWithPlane(flipped.transform.forward, UltramanCreature.Instance.FlippedPlane);
+                        Vector3 flippedForward = MathHelper.GetFlippedVectorWithPlane(flipped.transform.forward, UltramanCreature.Instance.FlippedPlane);
+                        transform.rotation = Quaternion.LookRotation(flippedForward);
                     }
                     else
                     {
@@ -199,10 +207,10 @@ namespace TestGon.BodyPartController
             }
             else
             {
-                Debug.Log("未检测到");
+                Debug.Log("射线检测未检测到碰撞体");
             }
         }
-
+        
 #if UNITY_EDITOR
         private void OnDrawGizmos()
         {

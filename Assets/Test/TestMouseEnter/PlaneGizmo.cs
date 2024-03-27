@@ -6,7 +6,34 @@ public class PlaneGizmo : MonoBehaviour
     public Vector3 normal; // 平面的法线向量  
     public float distance; // 原点到平面的距离  
     public Color gizmoColor = Color.blue; // Gizmos的颜色  
-  
+
+    public Vector3 checkPoint;
+    
+    private Vector3 GetFlippedVectorWithPlane(Vector3 point, Plane referencePlane)
+    {
+        Ray r = new Ray();
+        if (referencePlane.GetSide(point))
+        {
+            r.origin = point;
+            r.direction = -referencePlane.normal;
+        }
+        else
+        {
+            r.origin = point;
+            r.direction = referencePlane.normal;
+        }
+
+        if (referencePlane.Raycast(r, out float enter))
+        {
+            return r.GetPoint(enter * 2);
+        }
+        else
+        {
+            Debug.LogError($"计算错误，点{point} 相对 面 {referencePlane} 无对称点");
+            return Vector3.negativeInfinity;
+        }
+    }
+    
     // void OnDrawGizmos()  
     // {  
     //     Gizmos.color = gizmoColor;  
@@ -58,6 +85,14 @@ public class PlaneGizmo : MonoBehaviour
         {
             Vector3 planeCenter = normal.normalized * distance;
             DrawPlane(planeCenter, normal.normalized);
+
+            Vector3 flippedPPoint = GetFlippedVectorWithPlane(checkPoint, new Plane(normal.normalized, distance));
+            
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawSphere(checkPoint, 0.5f);
+            
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(flippedPPoint, 0.5f);
         }
 
         public void DrawPlane(Vector3 position, Vector3 normal)
