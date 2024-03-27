@@ -197,8 +197,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84837030}
-  m_LocalRotation: {x: 0.000029495232, y: -0.9998571, z: 0.016808769, w: 0.0017914535}
-  m_LocalPosition: {x: 0.030896401, y: 3.3658047, z: 8.973449}
+  m_LocalRotation: {x: -0.0011537733, y: 0.9975769, z: -0.06743823, w: -0.017061949}
+  m_LocalPosition: {x: -7.111481, y: 4.976542, z: 23.220066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &366755974
 Transform:
   m_ObjectHideFlags: 0
@@ -707,7 +707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &792601615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,13 +1403,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveAble: 1
   moveSpeed: 10
-  MoveLimit: 5
+  MoveLimit: 3
   moveAxis: 1
   rotateAxis: 0
   rotateAxisSpace: 1
   rotateSpeed: 100
   rotateAble: 0
-  rotateMoveAble: 0
+  rotateMoveAble: 1
   rotateMoveTarget: {fileID: 1788431868}
   rotateMoveSpeed: 5
   rotateMoveAxis: 1
@@ -1774,7 +1774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1793193130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,7 +2201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2097736737
 MonoBehaviour:
   m_ObjectHideFlags: 0

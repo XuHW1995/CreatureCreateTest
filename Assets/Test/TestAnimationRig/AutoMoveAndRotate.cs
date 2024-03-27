@@ -22,7 +22,8 @@ public class AutoMoveAndRotate : MonoBehaviour
     [SerializeField]
     public TestAxis moveAxis;
 
-    private Vector3 moveV
+    private Vector3 realMoveV;
+    private Vector3 MoveV
     {
         get
         {
@@ -127,21 +128,20 @@ public class AutoMoveAndRotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        realMoveV = MoveV;
     }
     
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 dp = Vector3.zero;
         if (moveAble)
         {
-            Vector3 realV = moveV;
             if (Mathf.Abs(LimitAxisPositionValue) > MoveLimit)
             {
-                realV *= -1;
+                realMoveV *= -1;
             }
-            dp += moveSpeed * realV * Time.deltaTime;
+            dp += moveSpeed * realMoveV * Time.deltaTime;
         }
 
         if (rotateMoveAble)
