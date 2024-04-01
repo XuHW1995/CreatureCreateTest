@@ -50,5 +50,5 @@ public class TestBezier : MonoBehaviour
     {  
         // 可以在这里添加代码以在运行时动态更新贝塞尔曲线的控制点
         DrawBezier();
-    }  
+    }
 }
