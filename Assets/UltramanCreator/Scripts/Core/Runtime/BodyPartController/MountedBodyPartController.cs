@@ -12,6 +12,8 @@ namespace TestGon.BodyPartController
         [SerializeField]
         public bool flippedable;
 
+        private Click click;
+        
         private bool canFlipped
         {
             get
@@ -25,7 +27,13 @@ namespace TestGon.BodyPartController
         public void Start()
         {
             base.Start();
-
+            
+            click = Utility.GetorAddComponent<Click>(this.gameObject);
+            click.OnClick.AddListener(() =>
+            {
+                Debug.Log($"XHW 点击了 {this.gameObject.name} body part");
+            });
+            
             //拖动面以参考对象的点为基准
             Drag.Plane = new Plane(Camera.main.transform.forward, UltramanCreature.Instance.transform.position);
             if (flippedable && flipped == null)
@@ -103,7 +111,7 @@ namespace TestGon.BodyPartController
                 flipped?.gameObject.SetActive(false);
             }
 #if UNITY_EDITOR
-            CheckRayCastResult();
+            //CheckRayCastResult();
 #endif
         }
 

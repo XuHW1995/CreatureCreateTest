@@ -19,11 +19,13 @@ namespace DanielLochner.Assets.CreatureCreator
         #region Methods
         private void OnMouseEnter()
         {
+            Debug.Log("Hover Entered " + gameObject.name);
             OnEnter.Invoke();
             IsOver = true;
         }
         private void OnMouseExit()
         {
+            Debug.Log("Hover Exited " + gameObject.name);
             OnExit.Invoke();
             IsOver = false;
         }

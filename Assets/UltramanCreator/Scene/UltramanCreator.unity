@@ -4931,6 +4931,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749837677}
   m_CullTransparentMesh: 0
+--- !u!95 &774936333 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1999698376750281519, guid: 9d46c41033f2e83468d50b8b58eb9868,
+    type: 3}
+  m_PrefabInstance: {fileID: 807276367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &781441980
 GameObject:
   m_ObjectHideFlags: 0
@@ -5457,6 +5463,16 @@ PrefabInstance:
       propertyPath: primaryColourPicker
       value: 
       objectReference: {fileID: 796794458}
+    - target: {fileID: 4477140779761372222, guid: 9d46c41033f2e83468d50b8b58eb9868,
+        type: 3}
+      propertyPath: BoneRootTransform
+      value: 
+      objectReference: {fileID: 1910073735}
+    - target: {fileID: 4477140779761372222, guid: 9d46c41033f2e83468d50b8b58eb9868,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 774936333}
     - target: {fileID: 6826031908874498675, guid: 9d46c41033f2e83468d50b8b58eb9868,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6250,7 +6266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50.003662}
+  m_AnchoredPosition: {x: 0, y: -50.003418}
   m_SizeDelta: {x: 0, y: -50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &908746942
@@ -13384,6 +13400,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -37.5}
   m_SizeDelta: {x: 0, y: -75}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &1910073735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3772100958386361374, guid: 9d46c41033f2e83468d50b8b58eb9868,
+    type: 3}
+  m_PrefabInstance: {fileID: 807276367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1948336342
 GameObject:
   m_ObjectHideFlags: 0

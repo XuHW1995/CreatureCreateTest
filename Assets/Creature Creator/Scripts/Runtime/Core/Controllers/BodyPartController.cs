@@ -42,7 +42,7 @@ namespace DanielLochner.Assets.CreatureCreator
         {
             hover.OnEnter.AddListener(delegate
             {
-                Debug.Log($"XHW {gameObject.name} hover.onenter ");
+                //Debug.Log($"XHW {gameObject.name} hover.onenter ");
                 if (!Input.GetMouseButton(0))
                 {
                     CreatureCreator.Instance.CameraOrbit.Freeze();
@@ -50,7 +50,7 @@ namespace DanielLochner.Assets.CreatureCreator
             });
             hover.OnExit.AddListener(delegate
             {
-                Debug.Log($"XHW {gameObject.name} hover.OnExit ");
+                //Debug.Log($"XHW {gameObject.name} hover.OnExit ");
                 if (!Input.GetMouseButton(0))
                 {
                     CreatureCreator.Instance.CameraOrbit.Unfreeze();

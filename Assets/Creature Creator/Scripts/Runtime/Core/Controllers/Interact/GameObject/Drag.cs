@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 namespace DanielLochner.Assets.CreatureCreator
 {
-    public class Drag : MonoBehaviour
+    public partial class Drag : MonoBehaviour
     {
         #region Fields
         [SerializeField] private MousePlaneAlignment mousePlaneAlignment = MousePlaneAlignment.ToLocalDirection;
@@ -49,6 +49,9 @@ namespace DanielLochner.Assets.CreatureCreator
         public Plane Plane { get { return plane; } set { plane = value; } }
         public bool Draggable { get { return draggable; } set { draggable = value; } }
         public Bounds WorldBounds { get { return worldBounds; } set { worldBounds = value; } }
+
+        private Vector3 curDragWorldPosition;
+        public Vector3 CurDragWorldPosition { get { return curDragWorldPosition; } }
         #endregion
 
         #region Methods
@@ -67,6 +70,7 @@ namespace DanielLochner.Assets.CreatureCreator
                     transform.position = startWorldPosition;
                 }
 
+                Debug.Log($" {gameObject.name} OnDragRelease()!!!");
                 OnRelease.Invoke();
 
                 IsPressing = false;
@@ -92,9 +96,11 @@ namespace DanielLochner.Assets.CreatureCreator
                     targetWorldPosition.x = Mathf.Clamp(targetWorldPosition.x, worldBounds.center.x - worldBounds.extents.x / 2f, worldBounds.center.x + worldBounds.extents.x / 2f);
                     targetWorldPosition.y = Mathf.Clamp(targetWorldPosition.y, worldBounds.center.y - worldBounds.extents.y / 2f, worldBounds.center.y + worldBounds.extents.y / 2f);
                     targetWorldPosition.z = Mathf.Clamp(targetWorldPosition.z, worldBounds.center.z - worldBounds.extents.z / 2f, worldBounds.center.z + worldBounds.extents.z / 2f);
-
+                    
                     if (draggable) { transform.position = targetWorldPosition; }
 
+                    //Debug.Log($" {gameObject.name} OnDrag()!!!");
+                    curDragWorldPosition = ray.GetPoint(distance);
                     OnDrag.Invoke();
                 }
             }
@@ -108,9 +114,11 @@ namespace DanielLochner.Assets.CreatureCreator
             if (plane.Raycast(ray, out float distance))
             {
                 startWorldPosition = transform.position;
+                curDragWorldPosition = ray.GetPoint(distance);
                 if (UseOffsetPosition) { offsetPosition = transform.InverseTransformPoint(ray.GetPoint(distance)); }
             }
 
+            Debug.Log($" {gameObject.name} OnDragPress()!!!");
             OnPress.Invoke();
 
             IsPressing = true;

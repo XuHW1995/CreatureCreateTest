@@ -29,6 +29,7 @@ namespace DanielLochner.Assets.CreatureCreator
         {
             if (Vector2.Distance(Input.mousePosition, initialMousePosition) <= threshold)
             {
+                Debug.Log("Clicked " + gameObject.name);
                 OnClick.Invoke();
             }
         }
