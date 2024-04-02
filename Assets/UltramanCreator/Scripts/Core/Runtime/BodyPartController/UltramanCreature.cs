@@ -36,6 +36,12 @@ namespace TestGon.BodyPartController
                 return flippedPlane;
             }
         }
+
+        [SerializeField]
+        public RotateTools RotateTools;
+        [SerializeField]
+        public PivotTools PivotTools;
+        
         public void Start()
         {
             _instance = this;
@@ -62,7 +68,7 @@ namespace TestGon.BodyPartController
             animator.speed = 0;
         }
         
-        public Transform selectBodyPart;
+        public UltramanBodyPartController SelectedBodyPart;
         public void InitBodyPartClick()
         {
             foreach (Transform bodyPartTransform in bodyPartsTransforms)
@@ -70,7 +76,8 @@ namespace TestGon.BodyPartController
                 Click click = bodyPartTransform.GetComponent<Click>();
                 click.OnClick.AddListener((() =>
                 {
-                    selectBodyPart = bodyPartTransform;
+                    
+                    SelectedBodyPart = bodyPartTransform.GetComponent<UltramanBodyPartController>();
                     //bodyPartTransform.GetComponent<Outline>().enabled = true;
                 }));
             }
@@ -79,9 +86,9 @@ namespace TestGon.BodyPartController
         [SerializeField] private ColourPicker primaryColourPicker;
         public void OnColorChange()
         {
-            if (selectBodyPart != null)
+            if (SelectedBodyPart != null)
             {
-                selectBodyPart.GetComponent<SkinnedMeshRenderer>().material.color = primaryColourPicker.Colour;
+                SelectedBodyPart.GetComponent<SkinnedMeshRenderer>().material.color = primaryColourPicker.Colour;
             }
         }
         
@@ -122,6 +129,16 @@ namespace TestGon.BodyPartController
                 //     dynamicMountBonesSlot.GetComponent<Outline>().enabled = false;
                 //     mr.enabled = false;
                 // }));
+            }
+        }
+
+        //TODO 空点击触发事件
+        public void SetAllPartUnSelected()
+        {
+            if (SelectedBodyPart != null)
+            {
+                SelectedBodyPart.SetUnselected();
+                SelectedBodyPart = null;
             }
         }
     }

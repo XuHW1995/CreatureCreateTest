@@ -185,11 +185,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3106542099860649047}
-  - component: {fileID: 8560678517137609325}
-  - component: {fileID: 4674958535693744319}
-  - component: {fileID: 5456246971026913496}
   - component: {fileID: 1405302031896486744}
   - component: {fileID: 8898647071731050072}
+  - component: {fileID: 6326952144164329960}
+  - component: {fileID: 2304971586081697}
   m_Layer: 0
   m_Name: wing_R
   m_TagString: Untagged
@@ -212,58 +211,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8560678517137609325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6777649629528875233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b214715c83905046a4d7e6ac545e11e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mousePlaneAlignment: 1
-  localDirection: {x: 0, y: 0, z: 0}
-  worldDirection: {x: 1, y: 0, z: 0}
-  maxDistance: Infinity
-  localMovement:
-    x: 1
-    y: 1
-    z: 1
-  worldBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: Infinity, y: Infinity, z: Infinity}
-  smoothing: 0
-  resetOnRelease: 0
-  useOffsetPosition: 0
-  draggable: 1
-  dragFromPosition: 0
---- !u!114 &4674958535693744319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6777649629528875233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3f7295b1f7aaa14eb623371ad919a66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5456246971026913496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6777649629528875233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1130929e55cd5ff43a05ca7699b6fdf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1405302031896486744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,3 +243,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5602722, y: 3.7664003, z: 5.1183896}
   m_Center: {x: 0.4883778, y: 1.0354247, z: 2.375354}
+--- !u!114 &6326952144164329960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777649629528875233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c6336b676ac2a4a92d8d8454d84221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: Infinity
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2304971586081697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777649629528875233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1130929e55cd5ff43a05ca7699b6fdf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,8 @@ namespace TestGon.BodyPartController
         public bool flippedable;
 
         private Click click;
+        private RotateTools rotateTools;
+        private PivotTools pivotTools;
         
         private bool canFlipped
         {
@@ -27,10 +29,13 @@ namespace TestGon.BodyPartController
         public void Start()
         {
             base.Start();
+
+            InitTools();
             
             click = Utility.GetorAddComponent<Click>(this.gameObject);
             click.OnClick.AddListener(() =>
             {
+                SetSelected();
                 Debug.Log($"XHW 点击了 {this.gameObject.name} body part");
             });
             
@@ -50,10 +55,51 @@ namespace TestGon.BodyPartController
                 flipped.Model.localScale = new Vector3(-Model.localScale.x, Model.localScale.y, Model.localScale.z);
             }
         }
+
+        private void InitTools()
+        {
+            if (rotateTools == null)
+            {
+                rotateTools = Instantiate(UltramanCreature.Instance.RotateTools, transform);
+                rotateTools.gameObject.SetActive(false);
+                rotateTools.transform.localPosition = Vector3.zero;
+                rotateTools.transform.localRotation = Quaternion.identity;
+                //TODO 工具尺寸需要匹配单位尺寸
+                rotateTools.transform.localScale = new Vector3(20, 20, 10);
+            }
+
+            if (pivotTools == null)
+            {
+                pivotTools = Instantiate(UltramanCreature.Instance.PivotTools, transform);
+                pivotTools.gameObject.SetActive(false);
+                pivotTools.transform.position = transform.position + transform.forward * 3f;
+                pivotTools.transform.localRotation = Quaternion.identity;
+                //TODO 工具尺寸需要匹配单位尺寸
+                pivotTools.transform.localScale = Vector3.one;
+            }
+        }
+
+        public void SetSelected()
+        {
+            UltramanCreature.Instance.SetAllPartUnSelected();
+            
+            UltramanCreature.Instance.SelectedBodyPart = this;
+            rotateTools.gameObject.SetActive(true);
+            pivotTools.gameObject.SetActive(true);
+        }
+        
+        public override void SetUnselected()
+        {
+            base.SetUnselected();
+            rotateTools.gameObject.SetActive(false);
+            pivotTools.gameObject.SetActive(false);
+        }
         
         public override void Init()
         {
+
             Drag.OnPress.AddListener(OnDragPress);
+            //return;
             Drag.OnRelease.AddListener(OnDragRelease);
             Drag.OnDrag.AddListener(OnDraging);
         }
@@ -63,12 +109,12 @@ namespace TestGon.BodyPartController
             CreatureCreator.Instance.CameraOrbit.Freeze();
 
             transform.SetParent(Dynamic.Transform);
-            gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
+            //gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
 
             if (canFlipped)
             {
                 flipped.transform.SetParent(Dynamic.Transform);
-                flipped.gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
+                //flipped.gameObject.SetLayerRecursively(LayerManager.IGNORE_RAYCAST_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
             }
         }
         
@@ -169,12 +215,12 @@ namespace TestGon.BodyPartController
                 Transform flippedParent = FindNearestBone(flipped.transform.position);
                 
                 transform.SetParent(mountedParentBone);
-                gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
+                //gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
 
                 if (canFlipped)
                 {
                     flipped.transform.SetParent(flippedParent);
-                    flipped.gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
+                    //flipped.gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
                 }
             }
             else

@@ -63,6 +63,12 @@ namespace DanielLochner.Assets.CreatureCreator
         }
         private void Update()
         {
+            if (checkFlag && Time.realtimeSinceStartup - OnMouseDownTime > 0.1f && !IsPressing)
+            {
+                dragPress();
+                checkFlag = false;
+            }
+            
             if (Input.GetMouseButtonUp(0) && IsPressing) // "OnMouseUp()" is unreliable.
             {
                 if (resetOnRelease)
@@ -74,6 +80,11 @@ namespace DanielLochner.Assets.CreatureCreator
                 OnRelease.Invoke();
 
                 IsPressing = false;
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                checkFlag = false;
             }
         }
         private void FixedUpdate()
@@ -106,7 +117,16 @@ namespace DanielLochner.Assets.CreatureCreator
             }
         }
 
+        private float OnMouseDownTime;
+        private bool checkFlag = false;
+        
         public void OnMouseDown()
+        {
+            checkFlag = true;
+            OnMouseDownTime = Time.realtimeSinceStartup;
+        }
+
+        private void dragPress()
         {
             if (dragFromPosition) UpdatePlane();
 
@@ -123,6 +143,7 @@ namespace DanielLochner.Assets.CreatureCreator
 
             IsPressing = true;
         }
+        
         private void OnDrawGizmos()
         {
             #if UNITY_EDITOR

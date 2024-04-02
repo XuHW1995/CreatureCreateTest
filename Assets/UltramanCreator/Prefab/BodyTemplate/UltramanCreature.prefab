@@ -4549,7 +4549,11 @@ MonoBehaviour:
   - {fileID: 1999698377893255809}
   - {fileID: 1999698376123467873}
   - {fileID: 5110747979926023539}
-  selectBodyPart: {fileID: 0}
+  RotateTools: {fileID: 4223252550637098541, guid: 6edf96c95b860974ea8461ccb3364787,
+    type: 3}
+  PivotTools: {fileID: 6874595208443039987, guid: 2fb8bc2baa0cbf84383059045c681ea9,
+    type: 3}
+  SelectedBodyPart: {fileID: 0}
   primaryColourPicker: {fileID: 0}
   dynamicMountBonesSlots: []
   dynamicMountBoneMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}

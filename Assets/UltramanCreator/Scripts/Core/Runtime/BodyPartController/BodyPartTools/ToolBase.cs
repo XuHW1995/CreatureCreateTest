@@ -38,7 +38,7 @@ public abstract class ToolBase : MonoBehaviour
         }
     }
 
-    public abstract void OnDraging();
     public abstract void OnDragPress();
+    public abstract void OnDraging();
     public abstract void OnDragRelease();
 }

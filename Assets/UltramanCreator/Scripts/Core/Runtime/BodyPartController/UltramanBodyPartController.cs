@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using DanielLochner.Assets.CreatureCreator;
+using TestGon.BodyPartController;
 using UnityEngine;
 
 public abstract class UltramanBodyPartController : BodyPartController
@@ -23,6 +24,10 @@ public abstract class UltramanBodyPartController : BodyPartController
     }
     
     public virtual void OnDragRelease()
+    {
+    }
+    
+    public virtual void SetUnselected()
     {
     }
 }
