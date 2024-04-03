@@ -55,6 +55,8 @@ MonoBehaviour:
     - wing_R
     - TESTCHECKPOINT
     - wing_R_db
+    - BlackKingHeadMount
+    - GrigioBoneHeadMount
     _keys:
     - BlackKingHead
     - RedKing_Head
@@ -75,6 +77,8 @@ MonoBehaviour:
     - wing_R
     - TESTCHECKPOINT
     - wing_R_db
+    - BlackKingHeadMount
+    - GrigioBoneHeadMount
     _values:
     - {fileID: 11400000, guid: 31c946bcb2fdf45438ceede2aff22461, type: 2}
     - {fileID: 11400000, guid: c89b633a82cd9904bacdc8bc3fa3ef91, type: 2}
@@ -95,3 +99,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}
     - {fileID: 11400000, guid: 2df96118b82d77746b0027565f74f286, type: 2}
     - {fileID: 11400000, guid: f4d1e0fbbe2ca8846b98d2b98c3b51c4, type: 2}
+    - {fileID: 11400000, guid: d3d38690d4cd46e4984ecbe78ada333a, type: 2}
+    - {fileID: 11400000, guid: f8b4333f0601ae241850b0e39c8d0667, type: 2}

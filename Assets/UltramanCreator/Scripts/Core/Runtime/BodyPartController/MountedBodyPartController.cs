@@ -212,13 +212,12 @@ namespace TestGon.BodyPartController
             if (isHit)
             {
                 Transform mountedParentBone = FindNearestBone(raycastHit.point);
-                Transform flippedParent = FindNearestBone(flipped.transform.position);
-                
                 transform.SetParent(mountedParentBone);
                 //gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
 
                 if (canFlipped)
                 {
+                    Transform flippedParent = FindNearestBone(flipped.transform.position);
                     flipped.transform.SetParent(flippedParent);
                     //flipped.gameObject.SetLayerRecursively(LayerManager.BODY_PART_LAYER, new List<string> {LayerManager.TOOLS_LAYER_NAME});
                 }

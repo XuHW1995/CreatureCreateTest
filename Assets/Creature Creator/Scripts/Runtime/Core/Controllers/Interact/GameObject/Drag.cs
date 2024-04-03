@@ -63,7 +63,7 @@ namespace DanielLochner.Assets.CreatureCreator
         }
         private void Update()
         {
-            if (checkFlag && Time.realtimeSinceStartup - OnMouseDownTime > 0.1f && !IsPressing)
+            if (checkFlag && Time.realtimeSinceStartup - OnMouseDownTime > 0.2f && !IsPressing)
             {
                 dragPress();
                 checkFlag = false;
