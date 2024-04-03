@@ -53,10 +53,11 @@ MonoBehaviour:
     - RedKing_leg_L
     - BindHand
     - wing_R
-    - TESTCHECKPOINT
     - wing_R_db
     - BlackKingHeadMount
     - GrigioBoneHeadMount
+    - RedKing_HeadMount
+    - TESTCHECKPOINT
     _keys:
     - BlackKingHead
     - RedKing_Head
@@ -75,10 +76,11 @@ MonoBehaviour:
     - RedKing_leg_L
     - BindHand
     - wing_R
-    - TESTCHECKPOINT
     - wing_R_db
     - BlackKingHeadMount
     - GrigioBoneHeadMount
+    - RedKing_HeadMount
+    - TESTCHECKPOINT
     _values:
     - {fileID: 11400000, guid: 31c946bcb2fdf45438ceede2aff22461, type: 2}
     - {fileID: 11400000, guid: c89b633a82cd9904bacdc8bc3fa3ef91, type: 2}
@@ -97,7 +99,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e6186f02d5b43c94087df46bcd7d3ca3, type: 2}
     - {fileID: 11400000, guid: 2cfdfe2c5fa6a0d4fb1601be2094a3ce, type: 2}
     - {fileID: 11400000, guid: 91fe87a96c440494ebfea7c480efb279, type: 2}
-    - {fileID: 11400000, guid: 2df96118b82d77746b0027565f74f286, type: 2}
     - {fileID: 11400000, guid: f4d1e0fbbe2ca8846b98d2b98c3b51c4, type: 2}
     - {fileID: 11400000, guid: d3d38690d4cd46e4984ecbe78ada333a, type: 2}
     - {fileID: 11400000, guid: f8b4333f0601ae241850b0e39c8d0667, type: 2}
+    - {fileID: 11400000, guid: 43edb52b75154024688ae65ac5c8b498, type: 2}
+    - {fileID: 11400000, guid: 2df96118b82d77746b0027565f74f286, type: 2}
