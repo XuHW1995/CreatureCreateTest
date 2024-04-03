@@ -103,6 +103,12 @@ public class AutoMoveAndRotate : MonoBehaviour
     [SerializeField]
     public TestAxis rotateMoveAxis;
 
+    #region RotateAround
+    public bool rotateAroundAble;
+    
+
+    #endregion
+    
     private Vector3 rotateMoveTargetVector
     {
         get
@@ -157,7 +163,11 @@ public class AutoMoveAndRotate : MonoBehaviour
         {
             this.transform.Rotate(RotateAxis, rotateSpeed * Time.deltaTime, rotateAxisSpace);
         }
-        
+
+        if (rotateAroundAble)
+        {
+            this.transform.RotateAround(rotateMoveTarget.position, RotateAxis, rotateSpeed * Time.deltaTime);
+        }
         transform.position += dp;
     }
 }
