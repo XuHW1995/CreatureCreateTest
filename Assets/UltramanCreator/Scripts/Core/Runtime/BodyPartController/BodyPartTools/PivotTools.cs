@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PivotTools : ToolBase
 {
+    private Vector3 upVector = Vector3.up;
+    
     public void Start()
     {
         base.Start();
@@ -11,14 +13,13 @@ public class PivotTools : ToolBase
     public override void OnDragPress()
     {
         CreatureCreator.Instance.CameraOrbit.Freeze();
+        
+        upVector = _mountedBodyPartController.transform.up;
     }
     
     public override void OnDraging()
     {
-        Vector3 forward = transform.position - _mountedBodyPartController.transform.position;
-        Quaternion rotation = Quaternion.LookRotation(forward);
-        
-        _mountedBodyPartController.transform.rotation = rotation;
+        _mountedBodyPartController.transform.LookAt(transform, upVector);
     }
     
     public override void OnDragRelease()
