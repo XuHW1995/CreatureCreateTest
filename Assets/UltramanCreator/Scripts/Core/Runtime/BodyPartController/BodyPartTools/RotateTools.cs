@@ -36,4 +36,14 @@ public class RotateTools : ToolBase
     {
         CreatureCreator.Instance.CameraOrbit.Unfreeze();
     }
+
+    [ContextMenu("TestSignedAngle")]
+    public void TestSignedAngle()
+    {
+        float angle = Vector3.SignedAngle(Vector3.left, Vector3.up, Vector3.forward);
+        Debug.Log(angle);
+        
+        angle = Vector3.SignedAngle(Vector3.down, Vector3.forward, Vector3.right);
+        Debug.Log(angle);
+    }
 }
