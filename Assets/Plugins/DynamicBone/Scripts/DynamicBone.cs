@@ -7,6 +7,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Threading;
+using UnityEngine.Profiling;
 
 [AddComponentMenu("Dynamic Bone/Dynamic Bone")]
 public class DynamicBone : MonoBehaviour
@@ -261,7 +262,7 @@ public class DynamicBone : MonoBehaviour
     void Prepare()
     {
         m_DeltaTime = Time.deltaTime;
-#if UNITY_5_3_OR_NEWER
+#if UNITY_5_3_OR_NEWER 
         if (m_UpdateMode == UpdateMode.UnscaledTime)
         {
             m_DeltaTime = Time.unscaledDeltaTime;
@@ -1075,7 +1076,9 @@ public class DynamicBone : MonoBehaviour
             s_WorkQueueSemaphore.WaitOne();
 
             DynamicBone db = GetWorkFromQueue();
+            Profiler.BeginSample("XHW db.UpdateParticles()");
             db.UpdateParticles();
+            Profiler.EndSample();
 
             if (Interlocked.Decrement(ref s_RemainWorkCount) <= 0)
             {

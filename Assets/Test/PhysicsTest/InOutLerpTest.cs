@@ -15,6 +15,16 @@ public class InOutLerpTest : MonoBehaviour
     public LerpType lerpType = LerpType.interpolate;
 
     private float t = 0f;
+    private Vector3 startForward;
+    private Vector3 targetforward;
+    public float rotateDuration = 1.0f;
+    private float rotateTimer = 0f;
+    
+    public void Start()
+    {
+        targetforward = transform.forward;
+    }
+    
     void Update()
     {
         t += Time.deltaTime / duration;
@@ -24,6 +34,21 @@ public class InOutLerpTest : MonoBehaviour
             Transform temp = endPoint;
             endPoint = startPoint;
             startPoint = temp;
+            
+            startForward = transform.forward;
+            targetforward = -transform.forward;
+        }
+        
+        if (Mathf.Abs(Vector3.Angle(targetforward, transform.forward)) > 1)
+        {
+            rotateTimer += Time.deltaTime;
+            //Debug.Log(rotateTimer);
+            transform.rotation = Quaternion.Slerp(Quaternion.LookRotation(startForward), Quaternion.LookRotation(targetforward), rotateTimer/rotateDuration);
+
+        }
+        else
+        {
+            rotateTimer = 0f;
         }
 
         Vector3 tempPosition = Vector3.zero;
